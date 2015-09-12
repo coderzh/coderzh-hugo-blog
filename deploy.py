@@ -2,6 +2,7 @@
 # coding:utf-8
 
 import os
+import sys
 import glob
 import shutil
 import subprocess
@@ -86,5 +87,8 @@ def deploy():
         os.system('git push gitcafe gh-pages:gh-pages')
 
 if __name__ == '__main__':
-    deploy()
+    if len(sys.argv) > 1 and sys.argv[1] == '--auto':
+        deploy()
+    else:
+        print 'please use --auto flag.'
 
