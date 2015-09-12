@@ -1,0 +1,158 @@
+/*
+ Theme Name:     Hueman Child
+ Theme URI:      http://example.com/twenty-fourteen-child/
+ Description:    Hueman Child Theme
+ Author:         Cyrill Schumacher
+ Author URI:     http://example.com
+ Template:       hueman
+ Version:        1.0.0
+*/
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+/* FiraSans from: git clone https://github.com/mozilla/Fira.git */
+body, input, textarea, button, select, label {
+    font-family: "Helvetica Neue","Hiragino Sans GB","Microsoft YaHei","\9ED1\4F53",Arial,sans-serif
+}
+
+body {
+    background: #eaeaea;
+}
+
+#commentform {
+    background-color: #FAEBD7;
+}
+
+.site-description {
+    font-weight: bold;
+}
+
+#header {
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+::selection {
+    background-color: #E3701A;
+}
+
+::-moz-selection {
+    background-color: #E3701A;
+}
+
+a,
+.themeform label .required,
+#flexslider-featured .flex-direction-nav .flex-next:hover,
+#flexslider-featured .flex-direction-nav .flex-prev:hover,
+.post-hover:hover .post-title a,
+.post-title a:hover,
+.s1 .post-nav li a:hover i,
+.content .post-nav li a:hover i,
+.post-related a:hover,
+.s1 .widget_rss ul li a,
+#footer .widget_rss ul li a,
+.s1 .widget_calendar a,
+#footer .widget_calendar a,
+.s1 .alx-tab .tab-item-category a,
+.s1 .alx-posts .post-item-category a,
+.s1 .alx-tab li:hover .tab-item-title a,
+.s1 .alx-tab li:hover .tab-item-comment a,
+.s1 .alx-posts li:hover .post-item-title a,
+#footer .alx-tab .tab-item-category a,
+#footer .alx-posts .post-item-category a,
+#footer .alx-tab li:hover .tab-item-title a,
+#footer .alx-tab li:hover .tab-item-comment a,
+#footer .alx-posts li:hover .post-item-title a,
+.comment-tabs li.active a,
+.comment-awaiting-moderation,
+.child-menu a:hover,
+.child-menu .current_page_item > a,
+.wp-pagenavi a {
+    color: #E3701A;
+}
+
+.themeform input[type="submit"],
+.themeform button[type="submit"],
+.s1 .sidebar-top,
+.s1 .sidebar-toggle,
+#flexslider-featured .flex-control-nav li a.flex-active,
+.post-tags a:hover,
+.s1 .widget_calendar caption,
+#footer .widget_calendar caption,
+.author-bio .bio-avatar:after,
+.commentlist li.bypostauthor > .comment-body:after {
+    /*background-color: #E3701A;*/
+    background-color: #E3701A;
+}
+
+.post-format .format-container {
+    border-color: #E3701A;
+}
+
+.s1 .alx-tabs-nav li.active a,
+#footer .alx-tabs-nav li.active a,
+.comment-tabs li.active a,
+.wp-pagenavi a:hover,
+.wp-pagenavi a:active,
+.wp-pagenavi span.current {
+    border-bottom-color: #E3701A !important;
+}
+
+.s2 .post-nav li a:hover i,
+.s2 .widget_rss ul li a,
+.s2 .widget_calendar a,
+.s2 .alx-tab .tab-item-category a,
+.s2 .alx-posts .post-item-category a,
+.s2 .alx-tab li:hover .tab-item-title a,
+.s2 .alx-tab li:hover .tab-item-comment a,
+.s2 .alx-posts li:hover .post-item-title a {
+    color: #8B2500;
+}
+
+.s2 .sidebar-top,
+.s2 .sidebar-toggle,
+.post-comments,
+.jp-play-bar,
+.jp-volume-bar-value,
+.s2 .widget_calendar caption {
+    background-color: #8B2500;
+}
+
+.s2 .alx-tabs-nav li.active a {
+    border-bottom-color: #8B2500;
+}
+
+.post-comments span:before {
+    border-right-color: #8B2500;
+}
+
+.widget_archive h4 {
+    font-weight: 500;
+    margin: 1em 0 0;
+}
+
+@media only screen and (min-width: 1921px) {
+    #header {
+        background-image: url("img/syd-bridge-oper-3200.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}
+
+@media only screen and (min-width: 1025px) and  (max-width: 1920px) {
+    #header {
+        background-image: url("img/syd-bridge-oper-1920.jpg");
+    }
+}
+
+@media only screen and (min-width: 720px) and  (max-width: 1024px) {
+    #header {
+        background-image: url("img/syd-bridge-oper-1024.jpg");
+    }
+}
+
+@media only screen and (max-width: 719px) {
+    #header {
+        background-image: url("img/syd-bridge-oper-720.jpg");
+    }
+}

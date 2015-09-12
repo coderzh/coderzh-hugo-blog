@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-US">
+<head>
+  <base href="{{ .Site.BaseURL }}/">
+  {{ partial "head.pace.html" . }}
+  {{ partial "head.meta.html" . }}
+  <script>document.documentElement.className = document.documentElement.className.replace("no-js", "js");</script>
+  <link rel="canonical" href="{{ .Permalink}}">
+  <link rel='shortlink' href="{{ .Permalink}}"/>
+  <link rel="shortcut icon" href="{{ .Site.BaseURL }}/public/favicon.ico"/>
+  {{ partial "head.includes.html" . }}
+</head>

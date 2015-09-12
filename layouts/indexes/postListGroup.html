@@ -1,0 +1,10 @@
+<div class="post-list group">
+  {{ range $index,$data := .Data.Pages }}
+  {{ if mod $index 2 | eq 0 }}
+  <div class="post-row">{{end}}
+    {{ template "indexes/postItem.html" $data }}
+    {{ if mod $index 2 | eq 1 }}
+  </div>
+  {{end}}
+  {{ end}}
+</div>

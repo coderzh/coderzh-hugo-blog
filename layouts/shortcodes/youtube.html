@@ -1,0 +1,22 @@
+<div class="lyte-wrapper" style="width:640px;max-width: 100%;margin:1em auto;">
+  <div class="lyMe" id="WYL_{{ .Get 0 }}" itemprop="video" itemscope itemtype="http://schema.org/VideoObject">
+    <meta itemprop="thumbnailUrl" content="http://i.ytimg.com/vi/{{ .Get 0 }}/0.jpg"/>
+    <meta itemprop="embedURL" content="http://www.youtube.com/embed/{{ .Get 0 }}"/>
+    <meta itemprop="uploadDate" content="2014-07-05T10:29:50.000Z"/>
+    <div id="lyte_{{ .Get 0 }}" data-src="http://i.ytimg.com/vi/{{ .Get 0 }}/0.jpg" class="pL">
+      <div class="tC">
+        <div class="tT" itemprop="name">{{ .Get 1 }}</div>
+      </div>
+      <div class="play"></div>
+      <div class="ctrl">
+        <div class="Lctrl"></div>
+        <div class="Rctrl"></div>
+      </div>
+    </div>
+    <noscript><a href="http://youtu.be/{{ .Get 0 }}"><img src="http://i.ytimg.com/vi/{{ .Get 0 }}/0.jpg" alt="" width="640" height="340"/><br/>Watch this
+      video on YouTube</a></noscript>
+    <p>
+      <meta itemprop="description" content="This video is about {{ .Get 1 }}">
+    </p>
+  </div>
+</div>

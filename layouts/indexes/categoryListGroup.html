@@ -1,0 +1,7 @@
+<div class="post-list group">
+  {{ range $index,$data := .Data.Pages }}
+  <div class="post-row">
+    {{ template "indexes/categoryItem.html" $data }}
+  </div>
+  {{ end}}
+</div>

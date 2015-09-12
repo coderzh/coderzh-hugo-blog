@@ -1,0 +1,34 @@
+<div class="sidebar s2">
+  <a class="sidebar-toggle" title="Expand Sidebar"><i class="fa icon-sidebar-toggle"></i></a>
+  <div class="sidebar-content">
+    <div class="sidebar-top group">
+      <p>More</p>
+    </div>
+    <div id="categories-2" class="widget widget_categories"><h3>Categories</h3>
+      <ul>
+        {{ range .Site.Params.Categories }}
+          <li class="cat-item cat-item-1">
+            <a href="/categories/{{ . | urlize }}/">{{ . }}</a>
+          </li>
+        {{ end }}
+      </ul>
+    </div>
+    <div id="tag_cloud-2" class="widget widget_tag_cloud"><h3>Tags</h3>
+      <div class="tagcloud">
+        <p class="post-tags">
+          {{if isset .Params "tags" }}
+              {{ range .Params.tags }}
+                <a rel="tag" href="/tags/{{ . | urlize }}/">{{ . }}</a>
+              {{ end }}
+            {{else}}
+              {{ range $k,$v:= .Site.Taxonomies.tags }}
+              <a rel="tag" href="/tags/{{ $k | urlize }}/"
+                 class="tag-link-{{ $v.Count }}"
+                 title="{{ $v.Count }} Posts">{{ $k }}</a>
+              {{ end}}
+          {{ end }}
+        </p>
+      </div>
+    </div>
+  </div>
+</div>

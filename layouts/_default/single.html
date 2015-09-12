@@ -1,0 +1,79 @@
+{{ partial "head.html" . }}
+<body class="single single-post single-format-standard col-3cm full-width topbar-enabled chrome">
+<div id="wrapper">
+  {{ partial "header.html" . }}
+
+  <div class="container" id="page">
+    <div class="container-inner">
+      <div class="main">
+        <div class="main-inner group">
+          <section class="content">
+            <div class="page-title pad group">
+              <ul class="meta-single group">
+                {{ range .Params.categories }}
+                <li class="category">
+                  <a href="/categories/{{ . | urlize }}" rel="category tag">{{ . }}</a>
+                </li>
+                {{ end }}
+              </ul>
+            </div>
+
+            <div class="pad group">
+
+              <article
+                  class="post type-post status-publish format-standard has-post-thumbnail hentry category-australien tag-bondi-beach tag-city2surf tag-sydney">
+                <div class="post-inner group">
+
+                  <h1 class="post-title">{{ .Title }}</h1>
+
+                  <p class="post-byline">
+                    by {{ .GetParam "author" }} · {{ .Date.Format .Site.Params.DateForm }} · {{ .RuneCount }} Words ·
+                    ~{{ div .RuneCount 500 }}min reading time |
+                    <a href="https://github.com/coderzh/coderzh-hugo-blog/blob/master/content/{{ replace .Source.File.Path "\\" "/" }}"
+                       target="_blank">Improve on <i class="fa fa-github"></i></a>
+                  </p>
+
+                  <div class="clear"></div>
+
+                  <div class="entry">
+                    <div class="entry-inner">
+                      <!--content-->
+                      {{ .Content }}
+                      <!--/content-->
+                    </div>
+                    <div class="clear"></div>
+                  </div>
+                  <!--/.entry-->
+
+                </div>
+                <!--/.post-inner-->
+              </article>
+              <!--/.post-->
+
+              <div class="clear"></div>
+
+              <p class="post-tags">
+                <span>Tags:</span>
+                {{ range .Params.tags }}
+                <a rel="tag" href="/tags/{{ . | urlize }}">{{ . }}</a>
+                {{ end }}
+              </p>
+
+              {{ partial "relatedPosts.html" . }}
+
+              {{ partial "duoshuo.html" . }}
+
+              <!--/#comments-->
+            </div>
+
+
+          </section>
+          {{ partial "sidebarLeft.html" . }}
+          {{ partial "sidebarRight.html" . }}
+        </div>
+      </div>
+    </div>
+  </div>
+  {{ partial "footer.copyright.html" . }}
+</div>
+{{ partial "footer.html" . }}

@@ -1,0 +1,22 @@
+<table class="mEvent">
+  <thead>
+    <tr>
+        <th>File / Code</th>
+    </tr>
+  </thead>
+  <tbody>
+  {{ $url := .Get "url" }}
+  {{ $sep := .Get "sep" }}
+  {{ range $i, $r := getCSV $sep $url }}
+    <tr>
+      <td>
+        <a href="https://github.com/magento/magento2/tree/0.42.0-beta10/{{ index $r 0 }}#L{{ index $r 1 }}" target="_blank">
+          {{ index $r 0 }}
+        </a><br>
+        {{ index $r 2 }}
+        <pre><code class="php">{{ index $r 3 }}</code></pre>
+      </td>
+    </tr>
+  {{ end }}
+  </tbody>
+</table>

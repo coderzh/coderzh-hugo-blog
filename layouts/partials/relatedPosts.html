@@ -1,0 +1,29 @@
+<h4 class="heading">
+  <i class="fa fa-hand-o-right"></i>Related posts</h4>
+
+    <ul class="related-posts group">
+    {{ $page_link := .Permalink }}
+    {{ $tags := .Params.tags }}
+    {{ range first 5 .Site.Pages }}
+        {{ $page := . }}
+        {{ $has_common_tags := intersect $tags .Params.tags | len | lt 0 }}
+        {{ if and $has_common_tags (ne $page_link $page.Permalink) }}
+            <li class="related post-hover">
+                <article class="post type-post status-publish format-standard has-post-thumbnail hentry">
+
+                  <div class="related-inner">
+                    <h4 class="post-title">
+                      <a href="{{ $page.Permalink }}" rel="bookmark"
+                         title="{{ $page.Title }}">{{ $page.Title }}</a>
+                    </h4><!--/.post-title-->
+                    <div class="post-meta group">
+                      <p class="post-date">{{ $page.Date.Format .Site.Params.DateForm }}</p>
+                    </div>
+                  </div>
+                </article>
+
+            </li>
+        {{ end }}
+    {{ end }}
+    </ul>
+<!--/.post-related-->
