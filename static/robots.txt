@@ -1,1 +1,2 @@
-Sitemap: http://blog.coderzh.com/sitemap.xml
+User-Agent: *
+Allow: /

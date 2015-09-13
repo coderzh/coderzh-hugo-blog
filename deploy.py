@@ -43,13 +43,10 @@ def deploy():
         commit_msg = s.communicate()[0]
         # step2 build
         os.system('hugo -v  --cacheDir="./cache"')
-        # step3 copy to public
-        for root, dirs, files in os.walk('copy_to_public'):
-            for filename in files:
-                shutil.copy(os.path.join(root, filename), 'public')
 
     gh_pages_dir = os.path.join(parent_dir, 'gh-pages')
 
+    # step3 clone if not exists
     if not os.path.exists(gh_pages_dir):
         with ChDir(parent_dir):
             os.system('git clone %s gh-pages' % GIT_HUB_REPO)
