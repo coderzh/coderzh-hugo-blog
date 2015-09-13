@@ -48,8 +48,8 @@ url: /about
  * Twitter：[twitter.com/coderzh](https://twitter.com/coderzh)
  * Github: [github.com/coderzh](https://github.com/coderzh)
  * Email：coderzh@qq.com(pythonzh@gmail.com)
- * 微信公众号：hacker-thinking
- <img src="http://blog.coderzh.com/public/qrcode.jpg" width="172px" height="172px"/>
+ * 微信公众号：hacker-thinking    
+   <img src="http://blog.coderzh.com/public/qrcode.jpg" alt="qrcode" width="172px" height="172px"/>
 
 ### 声明
 
