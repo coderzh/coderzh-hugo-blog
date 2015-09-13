@@ -6,7 +6,8 @@ import shutil
 
 
 def main():
-    shutil.rmtree('public')
+    if os.path.exists('public'):
+        shutil.rmtree('public')
     shutil.copytree('copy_to_public', 'public')
 
     os.system('hugo server -w -v')
