@@ -1,6 +1,8 @@
 ---
 categories:
 - 思考感悟
+keywords:
+- Hugo
 date: 2015-09-05T23:44:48+08:00
 title: "周末折腾的各种东西"
 url: "/2015/09/05/busy-weekend"

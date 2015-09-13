@@ -1,6 +1,8 @@
 ---
 categories:
 - 技术文章
+keywords:
+- Hugo
 date: 2015-09-13T08:48:52+08:00
 description: "通过webhook将Hugo自动部署至GitHub Pages和GitCafe Pages"
 title: "通过webhook将Hugo自动部署至GitHub Pages和GitCafe Pages"

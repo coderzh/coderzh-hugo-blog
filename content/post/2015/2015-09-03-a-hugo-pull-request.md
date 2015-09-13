@@ -1,6 +1,8 @@
 ---
 categories:
 - 技术文章
+keywords:
+- Hugo
 date: 2015-09-03T08:55:31+08:00
 title: "给Hugo提交了一个PR"
 url: "2015/09/03/a-hugo-pull-request"
