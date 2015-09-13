@@ -2,24 +2,24 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<meta name="description" content="{{ .Title }}">
+<meta name="description" content="{{ .Title }}{{ if eq .URL "/" }}: {{ .Site.Params.Tagline }}{{ end }}">
 <meta name="author" content="coderzh">
 <meta name="publisher" content="coderzh">
 <meta name="generator" content="http://gohugo.io/"/>
 
-<meta itemprop="name" content="{{ .Site.Title }} - {{ .Title }}">
-<meta itemprop="description" content="{{ .Title }}">
+<meta itemprop="name" content="{{ if ne .URL "/" }}{{ .Title }} - {{ end }}{{ .Site.Title }}">
+<meta itemprop="description" content="{{ .Title }}{{ if eq .URL "/" }}: {{ .Site.Params.Tagline }}{{ end }}">
 <meta itemprop="image" content="{{ .Site.BaseURL }}/public/coderzh.jpg">
 
-<meta property="og:title" content="{{ .Title }} - {{ .Site.Title }}" />
+<meta property="og:title" content="{{ if ne .URL "/" }}{{ .Title }} - {{ end }}{{ .Site.Title }}" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="{{ .Permalink}}" />
 <meta property="og:image" content="{{ .Site.BaseURL }}/public/coderzh.jpg" />
-<meta property="og:description" content="{{ .Title }}" />
+<meta property="og:description" content="{{ .Title }}{{ if eq .URL "/" }}: {{ .Site.Params.Tagline }}{{ end }}" />
 
 <meta name="twitter:card" content="summary">
 <meta name="twitter:site" content="@coderzh">
-<meta name="twitter:title" content="{{ .Title }} - {{ .Site.Title }}">
-<meta name="twitter:description" content="{{ .Title }}">
+<meta name="twitter:title" content="{{ if ne .URL "/" }}{{ .Title }} - {{ end }}{{ .Site.Title }}">
+<meta name="twitter:description" content="{{ .Title }}{{ if eq .URL "/" }}: {{ .Site.Params.Tagline }}{{ end }}">
 <meta name="twitter:creator" content="@coderzh">
 <meta name="twitter:image" content="{{ .Site.BaseURL }}/public/coderzh.jpg">
