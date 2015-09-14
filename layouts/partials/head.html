@@ -1,9 +1,8 @@
 <!DOCTYPE html>
 <html class="no-js">
 <head>
-  {{ partial "head.meta.html" . }}
   <base href="{{ .Site.BaseURL }}/">
-  {{ partial "head.pace.html" . }}
+  {{ partial "head.meta.html" . }}
   <script>document.documentElement.className = document.documentElement.className.replace("no-js", "js");</script>
   <link rel="canonical" href="{{ .Permalink}}">
   <link rel='shortlink' href="{{ .Permalink}}"/>
