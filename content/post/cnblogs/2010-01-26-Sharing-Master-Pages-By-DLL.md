@@ -3,7 +3,7 @@ categories:
 - 技术文章
 date: '2010-01-26'
 title: 将母版页或ASPX等其他资源编译到DLL，在多个ASP.NET工程中共享
-url: /2010/01/26/Sharing-Master-Pages-By-DLL
+url: /2010/01/26/Sharing-Master-Pages-By-DLL/
 
 ---
 

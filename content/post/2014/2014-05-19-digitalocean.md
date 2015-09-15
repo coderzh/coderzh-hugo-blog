@@ -5,7 +5,7 @@ date: '2014-05-19'
 description: ''
 tags: []
 title: DigitalOcean上使用Tornado+MongoDB+Nginx+Supervisor+DnsPod快速搭建个人博客
-url: /2014/05/19/digitalocean
+url: /2014/05/19/digitalocean/
 
 ---
 

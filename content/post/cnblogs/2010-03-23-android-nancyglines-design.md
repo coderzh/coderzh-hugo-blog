@@ -3,7 +3,7 @@ categories:
 - 技术文章
 date: '2010-03-23'
 title: Android游戏开发 - NancyGLines设计
-url: /2010/03/23/android-nancyglines-design
+url: /2010/03/23/android-nancyglines-design/
 
 ---
 

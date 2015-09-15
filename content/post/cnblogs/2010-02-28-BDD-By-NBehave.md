@@ -3,7 +3,7 @@ categories:
 - 技术文章
 date: '2010-02-28'
 title: 通过NBehave了解BDD(Behavior Driven Development)
-url: /2010/02/28/BDD-By-NBehave
+url: /2010/02/28/BDD-By-NBehave/
 
 ---
 

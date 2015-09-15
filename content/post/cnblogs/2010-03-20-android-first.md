@@ -3,7 +3,7 @@ categories:
 - 技术文章
 date: '2010-03-20'
 title: Android应用开发初印象
-url: /2010/03/20/android-first
+url: /2010/03/20/android-first/
 
 ---
 

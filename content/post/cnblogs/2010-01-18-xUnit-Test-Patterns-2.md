@@ -3,7 +3,7 @@ categories:
 - 技术文章
 date: '2010-01-18'
 title: 《xUnit Test Patterns》学习笔记2 - Goal Of Test Automation
-url: /2010/01/18/xUnit-Test-Patterns-2
+url: /2010/01/18/xUnit-Test-Patterns-2/
 
 ---
 

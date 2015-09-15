@@ -12,7 +12,7 @@
               <ul class="meta-single group">
                 {{ range .Params.categories }}
                 <li class="category">
-                  <a href="/categories/{{ . | urlize }}" rel="category tag">{{ . }}</a>
+                  <a href="/categories/{{ . | urlize }}/" rel="category tag">{{ . }}</a>
                 </li>
                 {{ end }}
               </ul>

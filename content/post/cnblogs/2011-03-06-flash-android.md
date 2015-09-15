@@ -3,7 +3,7 @@ categories:
 - 技术文章
 date: '2011-03-06'
 title: Android刷机备忘录
-url: /2011/03/06/flash-android
+url: /2011/03/06/flash-android/
 
 ---
 

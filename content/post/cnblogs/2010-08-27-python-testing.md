@@ -3,7 +3,7 @@ categories:
 - 技术文章
 date: '2010-08-27'
 title: Python测试开发分享感悟
-url: /2010/08/27/python-testing
+url: /2010/08/27/python-testing/
 
 ---
 

@@ -3,7 +3,7 @@ categories:
 - 技术文章
 date: '2010-01-09'
 title: 编写优美的GTest测试案例
-url: /2010/01/09/beautiful-testcase
+url: /2010/01/09/beautiful-testcase/
 
 ---
 

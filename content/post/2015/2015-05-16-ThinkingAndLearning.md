@@ -7,7 +7,7 @@ keywords:
 - 程序员的思维训练
 tags: []
 title: 读《程序员的思维训练》
-url: /2015/05/16/ThinkingAndLearning
+url: /2015/05/16/ThinkingAndLearning/
 
 ---
 

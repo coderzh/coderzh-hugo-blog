@@ -6,7 +6,7 @@ keywords:
 date: 2015-09-13T08:48:52+08:00
 description: "通过webhook将Hugo自动部署至GitHub Pages和GitCafe Pages"
 title: "通过webhook将Hugo自动部署至GitHub Pages和GitCafe Pages"
-url: "/2015/09/13/use-webhook-automated-deploy-hugo"
+url: "/2015/09/13/use-webhook-automated-deploy-hugo/"
 
 ---
 

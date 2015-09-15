@@ -3,7 +3,7 @@ categories:
 - 技术文章
 date: '2010-09-16'
 title: ASP.NET Web Application中使用链接文件
-url: /2010/09/16/build-linked-files-with-web-application
+url: /2010/09/16/build-linked-files-with-web-application/
 
 ---
 

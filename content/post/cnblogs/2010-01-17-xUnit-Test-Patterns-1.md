@@ -3,7 +3,7 @@ categories:
 - 技术文章
 date: '2010-01-17'
 title: 《xUnit Test Patterns》学习笔记1 - Test Smell
-url: /2010/01/17/xUnit-Test-Patterns-1
+url: /2010/01/17/xUnit-Test-Patterns-1/
 
 ---
 

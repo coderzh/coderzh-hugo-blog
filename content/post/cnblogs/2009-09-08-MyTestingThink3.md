@@ -3,7 +3,7 @@ categories:
 - 思考感悟
 date: '2009-09-08'
 title: 我的测试生活感悟3 - 淘宝的接口测试白皮书
-url: /2009/09/08/MyTestingThink3
+url: /2009/09/08/MyTestingThink3/
 
 ---
 

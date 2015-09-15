@@ -3,7 +3,7 @@ categories:
 - 技术文章
 date: '2009-12-26'
 title: 最常用的Emacs的基本操作
-url: /2009/12/26/CommonEmacs
+url: /2009/12/26/CommonEmacs/
 
 ---
 

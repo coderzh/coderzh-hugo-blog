@@ -6,7 +6,7 @@ description: ''
 keywords: []
 tags: []
 title: 最近的一些变化
-url: /2015/05/11/NewChange
+url: /2015/05/11/NewChange/
 
 ---
 

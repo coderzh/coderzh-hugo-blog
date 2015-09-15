@@ -12,7 +12,7 @@ keywords:
 - GuestAdditions
 tags: []
 title: skynet Windows开发方式：VirtualBox中共享文件夹
-url: /2015/01/14/SkynetUbuntuVirtualBox
+url: /2015/01/14/SkynetUbuntuVirtualBox/
 
 ---
 

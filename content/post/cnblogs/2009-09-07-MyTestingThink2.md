@@ -3,7 +3,7 @@ categories:
 - 思考感悟
 date: '2009-09-07'
 title: 我的测试生活感悟2 - Art Of Unit Testing
-url: /2009/09/07/MyTestingThink2
+url: /2009/09/07/MyTestingThink2/
 
 ---
 

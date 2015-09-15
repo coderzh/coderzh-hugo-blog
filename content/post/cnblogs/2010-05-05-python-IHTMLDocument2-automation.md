@@ -3,7 +3,7 @@ categories:
 - 技术文章
 date: '2010-05-05'
 title: Python操作IHTMLDocument2用于自动化测试
-url: /2010/05/05/python-IHTMLDocument2-automation
+url: /2010/05/05/python-IHTMLDocument2-automation/
 
 ---
 

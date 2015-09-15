@@ -3,7 +3,7 @@ categories:
 - 技术文章
 date: '2010-08-23'
 title: Python 天天美味(37) - 让python的unittest像gtest一样输出
-url: /2010/08/23/custom-python-unittestoutput-as-gtest
+url: /2010/08/23/custom-python-unittestoutput-as-gtest/
 
 ---
 

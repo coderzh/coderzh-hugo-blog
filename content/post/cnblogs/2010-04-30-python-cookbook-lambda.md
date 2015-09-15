@@ -3,7 +3,7 @@ categories:
 - 技术文章
 date: '2010-04-30'
 title: Python天天美味(35) - 细品lambda
-url: /2010/04/30/python-cookbook-lambda
+url: /2010/04/30/python-cookbook-lambda/
 
 ---
 

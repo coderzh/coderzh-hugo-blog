@@ -7,7 +7,7 @@ keywords:
 - unreferenced symbols
 tags: []
 title: 强制链接静态库所有符号(包括未被使用的)
-url: /2015/06/14/LinkAllSymbols
+url: /2015/06/14/LinkAllSymbols/
 
 ---
 

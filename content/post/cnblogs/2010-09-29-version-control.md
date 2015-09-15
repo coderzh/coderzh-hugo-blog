@@ -3,7 +3,7 @@ categories:
 - 技术文章
 date: '2010-09-29'
 title: 关于版本控制软件
-url: /2010/09/29/version-control
+url: /2010/09/29/version-control/
 
 ---
 

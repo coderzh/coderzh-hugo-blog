@@ -3,7 +3,7 @@ categories:
 - 技术文章
 date: '2010-09-24'
 title: 瘦客户端那些事 - 远程传输协议
-url: /2010/09/24/thinclient-protocol
+url: /2010/09/24/thinclient-protocol/
 
 ---
 

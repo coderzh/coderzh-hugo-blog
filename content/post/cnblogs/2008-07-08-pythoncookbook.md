@@ -3,7 +3,7 @@ categories:
 - 技术文章
 date: '2008-07-08'
 title: Python天天美味(总)
-url: /2008/07/08/pythoncookbook
+url: /2008/07/08/pythoncookbook/
 
 ---
 

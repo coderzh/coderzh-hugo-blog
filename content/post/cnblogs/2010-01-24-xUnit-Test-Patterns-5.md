@@ -3,7 +3,7 @@ categories:
 - 技术文章
 date: '2010-01-24'
 title: 《xUnit Test Patterns》学习笔记5 - xUnit基础
-url: /2010/01/24/xUnit-Test-Patterns-5
+url: /2010/01/24/xUnit-Test-Patterns-5/
 
 ---
 

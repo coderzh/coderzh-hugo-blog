@@ -3,7 +3,7 @@ categories:
 - 技术文章
 date: '2010-09-12'
 title: 发布基于GAE的个人Wiki系统 - NancyWiki
-url: /2010/09/12/nancywiki
+url: /2010/09/12/nancywiki/
 
 ---
 

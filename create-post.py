@@ -31,7 +31,7 @@ if __name__ == '__main__':
 
     replace_patterns =[
         (re.compile(r'title:(.*)'), 'title: "%s"' % post_name),
-        (re.compile(r'url:(.*)'), 'url: "%s"' % url),
+        (re.compile(r'url:(.*)'), 'url: "%s/"' % url),
         (re.compile(r'\n---'), r'\n\n---'),
     ]
 

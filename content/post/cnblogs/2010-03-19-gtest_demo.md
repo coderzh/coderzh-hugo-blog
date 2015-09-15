@@ -3,7 +3,7 @@ categories:
 - 技术文章
 date: '2010-03-19'
 title: gtest参数化测试代码示例
-url: /2010/03/19/gtest_demo
+url: /2010/03/19/gtest_demo/
 
 ---
 

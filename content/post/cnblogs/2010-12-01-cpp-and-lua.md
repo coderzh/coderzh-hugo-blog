@@ -3,7 +3,7 @@ categories:
 - 技术文章
 date: '2010-12-01'
 title: C++与Lua互操作学习
-url: /2010/12/01/cpp-and-lua
+url: /2010/12/01/cpp-and-lua/
 
 ---
 

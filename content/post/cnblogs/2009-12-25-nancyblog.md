@@ -3,7 +3,7 @@ categories:
 - 技术文章
 date: '2009-12-25'
 title: NancyBlog - 我的Google App Engine Blog
-url: /2009/12/25/nancyblog
+url: /2009/12/25/nancyblog/
 
 ---
 

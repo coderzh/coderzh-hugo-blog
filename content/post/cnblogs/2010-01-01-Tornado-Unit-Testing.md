@@ -3,7 +3,7 @@ categories:
 - 技术文章
 date: '2010-01-01'
 title: Tornado Unit Testing - Tornado应用的单元测试
-url: /2010/01/01/Tornado-Unit-Testing
+url: /2010/01/01/Tornado-Unit-Testing/
 
 ---
 

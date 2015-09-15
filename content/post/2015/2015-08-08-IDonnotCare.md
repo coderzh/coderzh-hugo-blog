@@ -6,7 +6,7 @@ description: ''
 keywords: []
 tags: []
 title: 你说我是错的，那你最好证明你是对的
-url: /2015/08/08/IDonnotCare
+url: /2015/08/08/IDonnotCare/
 
 ---
 

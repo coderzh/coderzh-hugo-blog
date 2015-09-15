@@ -9,7 +9,7 @@ keywords:
 - Ping
 tags: []
 title: 为什么心跳包(HeartBeat)是必须的？
-url: /2015/03/05/WhyHeartBeatNeeded
+url: /2015/03/05/WhyHeartBeatNeeded/
 
 ---
 

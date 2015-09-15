@@ -3,7 +3,7 @@ categories:
 - 技术文章
 date: '2010-04-27'
 title: Python天天美味(34) - Decorators详解
-url: /2010/04/27/python-cookbook33-Decorators
+url: /2010/04/27/python-cookbook33-Decorators/
 
 ---
 

@@ -3,7 +3,7 @@ categories:
 - 技术文章
 date: '2010-07-18'
 title: Chrome默认字体太小解决办法
-url: /2010/07/18/chrome-minimum-font-size
+url: /2010/07/18/chrome-minimum-font-size/
 
 ---
 

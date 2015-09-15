@@ -3,7 +3,7 @@ categories:
 - 技术文章
 date: '2010-01-11'
 title: Python查询Google PageRank
-url: /2010/01/11/python-googlerank
+url: /2010/01/11/python-googlerank/
 
 ---
 

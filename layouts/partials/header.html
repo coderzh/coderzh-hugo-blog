@@ -10,7 +10,7 @@
       <ul id="menu-default-menu" class="nav container-inner group">
         {{ range .Site.Params.Categories }}
         <li class="menu-item menu-item-type-post_type menu-item-object-page">
-          <a rel="nofollow" href="/categories/{{ . | urlize }}">{{ . }}</a>
+          <a rel="nofollow" href="/categories/{{ . | urlize }}/">{{ . }}</a>
         </li>
         {{ end }}
         {{ range .Site.Menus.main }}

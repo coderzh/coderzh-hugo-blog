@@ -3,7 +3,7 @@ categories:
 - 思考感悟
 date: '2010-01-02'
 title: 我的测试生活感悟5 - 不要被代码覆盖率蒙蔽双眼
-url: /2010/01/02/MyTestThinking5
+url: /2010/01/02/MyTestThinking5/
 
 ---
 

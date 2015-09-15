@@ -3,7 +3,7 @@ categories:
 - 技术文章
 date: '2010-01-24'
 title: 激动 - 《赢在测试：中国软件测试先行者之道》
-url: /2010/01/24/win-in-testing
+url: /2010/01/24/win-in-testing/
 
 ---
 

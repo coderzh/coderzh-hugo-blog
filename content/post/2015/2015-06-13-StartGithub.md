@@ -7,7 +7,7 @@ keywords:
 - Github
 tags: []
 title: 开启Github之旅
-url: /2015/06/13/StartGithub
+url: /2015/06/13/StartGithub/
 
 ---
 

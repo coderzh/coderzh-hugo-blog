@@ -3,7 +3,7 @@ categories:
 - 技术文章
 date: '2009-12-01'
 title: Django单元测试案例代码覆盖率统计 - 自定义test runner
-url: /2009/12/01/djangocoverage
+url: /2009/12/01/djangocoverage/
 
 ---
 

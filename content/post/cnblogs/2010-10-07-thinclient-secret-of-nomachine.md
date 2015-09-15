@@ -3,7 +3,7 @@ categories:
 - 技术文章
 date: '2010-10-07'
 title: 瘦客户端那些事 - NoMachine的秘密
-url: /2010/10/07/thinclient-secret-of-nomachine
+url: /2010/10/07/thinclient-secret-of-nomachine/
 
 ---
 

@@ -6,7 +6,7 @@ keywords:
 - 从0到1
 tags: []
 title: 读《从0到1》
-url: /2015/04/20/ZeroToOne
+url: /2015/04/20/ZeroToOne/
 
 ---
 

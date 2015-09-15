@@ -3,7 +3,7 @@ categories:
 - 技术文章
 date: '2009-12-01'
 title: Python 代码覆盖率统计工具 coverage.py
-url: /2009/12/01/pythoncoverage
+url: /2009/12/01/pythoncoverage/
 
 ---
 

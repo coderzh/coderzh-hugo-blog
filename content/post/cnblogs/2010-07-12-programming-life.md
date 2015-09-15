@@ -3,7 +3,7 @@ categories:
 - 思考感悟
 date: '2010-07-12'
 title: 多彩的程序人生
-url: /2010/07/12/programming-life
+url: /2010/07/12/programming-life/
 
 ---
 

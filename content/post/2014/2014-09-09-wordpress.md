@@ -5,7 +5,7 @@ date: '2014-09-09'
 description: ''
 tags: []
 title: 自豪的使用上了WordPress
-url: /2014/09/09/wordpress
+url: /2014/09/09/wordpress/
 
 ---
 

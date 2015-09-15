@@ -3,7 +3,7 @@ categories:
 - 思考感悟
 date: '2010-03-27'
 title: 三年之痒
-url: /2010/03/27/three-years-work-thinking
+url: /2010/03/27/three-years-work-thinking/
 
 ---
 

@@ -3,7 +3,7 @@ categories:
 - 技术文章
 date: '2010-04-21'
 title: 三言两语话敏捷(2) - 持续集成
-url: /2010/04/21/talk-about-agile-continuousIntegration
+url: /2010/04/21/talk-about-agile-continuousIntegration/
 
 ---
 

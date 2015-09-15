@@ -3,7 +3,7 @@ categories:
 - 技术文章
 date: '2011-05-08'
 title: 从CEGUI源码看代码规范
-url: /2011/05/08/CEGUI_Coding_Style
+url: /2011/05/08/CEGUI_Coding_Style/
 
 ---
 

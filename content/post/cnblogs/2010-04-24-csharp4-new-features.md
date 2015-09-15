@@ -3,7 +3,7 @@ categories:
 - 技术文章
 date: '2010-04-24'
 title: C# 4.0新特性学习资料汇总
-url: /2010/04/24/csharp4-new-features
+url: /2010/04/24/csharp4-new-features/
 
 ---
 

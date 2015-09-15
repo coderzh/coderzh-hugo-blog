@@ -3,7 +3,7 @@ categories:
 - 技术文章
 date: '2010-10-07'
 title: NX Client开发步骤
-url: /2010/10/07/nxclient-develop
+url: /2010/10/07/nxclient-develop/
 
 ---
 

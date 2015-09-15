@@ -3,7 +3,7 @@ categories:
 - 技术文章
 date: '2010-04-18'
 title: 三言两语话敏捷(1) - 反馈
-url: /2010/04/18/talk-about-agile-1
+url: /2010/04/18/talk-about-agile-1/
 
 ---
 

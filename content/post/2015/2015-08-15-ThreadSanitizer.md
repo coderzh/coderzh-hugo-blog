@@ -9,7 +9,7 @@ keywords:
 - 线程安全
 - 代码扫描
 title: 使用ThreadSanitizer线程检查工具
-url: /2015/08/15/ThreadSanitizer
+url: /2015/08/15/ThreadSanitizer/
 
 ---
 

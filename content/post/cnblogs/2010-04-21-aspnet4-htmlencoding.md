@@ -3,7 +3,7 @@ categories:
 - 技术文章
 date: '2010-04-21'
 title: ASP.NET4.0新的语法用于HTML Encoding
-url: /2010/04/21/aspnet4-htmlencoding
+url: /2010/04/21/aspnet4-htmlencoding/
 
 ---
 

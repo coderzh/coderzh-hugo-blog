@@ -3,7 +3,7 @@ categories:
 - 技术文章
 date: '2010-05-05'
 title: Get IHTMLDocument2 for UI Automation in Python
-url: /2010/05/05/Get-IHTMLDocument2-UIAutomation-Python
+url: /2010/05/05/Get-IHTMLDocument2-UIAutomation-Python/
 
 ---
 

@@ -3,7 +3,7 @@ categories:
 - 技术文章
 date: '2015-08-15'
 title: 使用Jekyll官方的ReadMore摘要功能
-url: /2015/08/15/JekyllReadMore
+url: /2015/08/15/JekyllReadMore/
 
 ---
 

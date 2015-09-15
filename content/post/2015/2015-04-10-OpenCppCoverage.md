@@ -13,7 +13,7 @@ keywords:
 - OpenCppCoverage
 tags: []
 title: C++开源代码覆盖率工具OpenCppCoverage介绍(Windows)
-url: /2015/04/10/OpenCppCoverage
+url: /2015/04/10/OpenCppCoverage/
 
 ---
 

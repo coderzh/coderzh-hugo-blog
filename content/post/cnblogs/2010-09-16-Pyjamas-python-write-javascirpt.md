@@ -3,7 +3,7 @@ categories:
 - 技术文章
 date: '2010-09-16'
 title: Pyjamas - 用python代替javascript编写基于浏览器的应用
-url: /2010/09/16/Pyjamas-python-write-javascirpt
+url: /2010/09/16/Pyjamas-python-write-javascirpt/
 
 ---
 

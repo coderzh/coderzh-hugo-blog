@@ -3,7 +3,7 @@ categories:
 - 技术文章
 date: '2010-03-13'
 title: 白话云计算
-url: /2010/03/13/talk-cloudcomputing
+url: /2010/03/13/talk-cloudcomputing/
 
 ---
 

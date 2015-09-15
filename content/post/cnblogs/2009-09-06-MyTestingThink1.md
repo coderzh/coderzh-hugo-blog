@@ -3,7 +3,7 @@ categories:
 - 思考感悟
 date: '2009-09-06'
 title: 我的测试生活感悟1
-url: /2009/09/06/MyTestingThink1
+url: /2009/09/06/MyTestingThink1/
 
 ---
 

@@ -3,7 +3,7 @@ categories:
 - 技术文章
 date: '2010-05-02'
 title: 成功将ubuntu9.10升级到了10.04
-url: /2010/05/02/ubuntu-upgrade-from-910-to-1004
+url: /2010/05/02/ubuntu-upgrade-from-910-to-1004/
 
 ---
 

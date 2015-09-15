@@ -3,7 +3,7 @@ categories:
 - 技术文章
 date: '2010-09-11'
 title: 瘦客户端那些事 - 开篇
-url: /2010/09/11/thincilent
+url: /2010/09/11/thincilent/
 
 ---
 

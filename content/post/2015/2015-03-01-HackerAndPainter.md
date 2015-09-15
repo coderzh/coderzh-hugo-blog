@@ -7,7 +7,7 @@ keywords:
 - hacker
 tags: []
 title: 《黑客与画家》杂想
-url: /2015/03/01/HackerAndPainter
+url: /2015/03/01/HackerAndPainter/
 
 ---
 

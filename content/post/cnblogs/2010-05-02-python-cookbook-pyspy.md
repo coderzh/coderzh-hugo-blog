@@ -3,7 +3,7 @@ categories:
 - 技术文章
 date: '2010-05-02'
 title: Python天天美味(36) - 用Python实现Spy++
-url: /2010/05/02/python-cookbook-pyspy
+url: /2010/05/02/python-cookbook-pyspy/
 
 ---
 

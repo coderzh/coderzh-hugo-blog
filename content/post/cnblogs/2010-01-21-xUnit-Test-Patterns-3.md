@@ -3,7 +3,7 @@ categories:
 - 技术文章
 date: '2010-01-21'
 title: 《xUnit Test Patterns》学习笔记3 - Philosophy of Test Automation
-url: /2010/01/21/xUnit-Test-Patterns-3
+url: /2010/01/21/xUnit-Test-Patterns-3/
 
 ---
 
