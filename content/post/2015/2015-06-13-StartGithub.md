@@ -19,16 +19,16 @@ url: /2015/06/13/StartGithub/
 
 在那个远古时代，我还用着Google Code尝试着做一些开源代码。比如这个：
 
-![NancyWikiLogo](https://mmbiz.qlogo.cn/mmbiz/otHvoL6neeIJLiaBDrUlGtkQ3qgwBJDQkoHQlGAjahxkoarOsAibfbib4YFdQIL4CVocDPq0Ntru9nYUY2YcsXWhw/0?wx_fmt=png)
+![NancyWikiLogo](http://7xlx3k.com1.z0.glb.clouddn.com/NancyWikiLogo.png)
 
 这是一个用Python实现的基于GAE写的一个Wiki系统，现在看看界面截图，简洁美观大方，还是很不错的。
 
-![NancyWiki](https://mmbiz.qlogo.cn/mmbiz/otHvoL6neeIJLiaBDrUlGtkQ3qgwBJDQklgp8Dw481fPUuVnicAvIyJfPDeDSKiccK1tYHIGdoReAXGO6sMSgZHwg/0?wx_fmt=jpeg)
+![NancyWiki](http://7xlx3k.com1.z0.glb.clouddn.com/nancywiki.jpg)
 
 
 然而新鲜一阵之后我再也没有使用过这个系统，而且再也没有维护过。甚至有个用户给我提了个Issue也被我忽略掉了。
 
-![NancyWikiIssue](https://mmbiz.qlogo.cn/mmbiz/otHvoL6neeIJLiaBDrUlGtkQ3qgwBJDQkEnguazW4ibqtiaSnbwJaP8yWftpsLXhuPzKpgXDk3AuRd8wv3g9cdH7g/0?wx_fmt=png)
+![NancyWikiIssue](http://7xlx3k.com1.z0.glb.clouddn.com/NancyWikiIssues.png)
 
 时隔几年了，我自己的NancyWiki的网站已经各种链接失效无法使用了。让我吃惊的是，给我提Issue的同学用NancyWiki建的Wiki网站还能正常访问 [http://mayxwiki.appspot.com/](http://mayxwiki.appspot.com/)， 不过看他也早已经没有再更新过内容了。
 
@@ -41,7 +41,7 @@ url: /2015/06/13/StartGithub/
 
 目前为止各项目下载情况（有的只提供了SVN代码所以没统计到）：
 
-![GoogleCodeDownload](https://mmbiz.qlogo.cn/mmbiz/otHvoL6neeIJLiaBDrUlGtkQ3qgwBJDQkdpIKzkztmfrktGFMLPw0Xa84NqsT7uJoriayfKTGRtPf4dcVbwkUrBg/0?wx_fmt=png)
+![GoogleCodeDownload](http://7xlx3k.com1.z0.glb.clouddn.com/GoogleCodeDownload.png)
 
 2010年后，我就再也没有更新和维护过它们，甚至忘记了它们的存在！我不是一个合格的代码开源作者，我只是把东西做出来，往上一丢，然后就忘记了这件事。。。（囧）下载过我的代码或者使用过我的项目的人估计会失望吧。。。我这作者也太不靠谱了吧。。。
 
@@ -49,7 +49,7 @@ url: /2015/06/13/StartGithub/
 
 ### 开启Github
 
-![github](https://mmbiz.qlogo.cn/mmbiz/otHvoL6neeIJLiaBDrUlGtkQ3qgwBJDQkic1MPQibIicyZfjSWZcaiatrZvxeKcXDLMPibL1sztNm1pTOXdzJoUIkyBw/0?wx_fmt=png)
+![github](http://7xlx3k.com1.z0.glb.clouddn.com/octocat_collabocats.png)
 
 
 我的主页：[https://github.com/coderzh](https://github.com/coderzh)    (我才发现我2010年就注册了这个全球最大的同性交友网站)

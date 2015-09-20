@@ -8,6 +8,9 @@
         <img width="40" height="40" src="/public/coderzh.jpg" alt="coderzh" title="Home">
       </a>
       <ul id="menu-default-menu" class="nav container-inner group">
+        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a rel="nofollow" href="/">首页</a>
+        </li>
         {{ range .Site.Params.Categories }}
         <li class="menu-item menu-item-type-post_type menu-item-object-page">
           <a rel="nofollow" href="/categories/{{ . | urlize }}/">{{ . }}</a>

@@ -17,7 +17,7 @@ url: /2015/04/20/ZeroToOne/
 
 <!--more-->
 
-![ZeroToOne](https://mmbiz.qlogo.cn/mmbiz/otHvoL6neeJ5oYLG0iaoNxdK2PicJibOmbEvIdIwkiaMdVw6kIWfFws0G5D3RQaHNue9GmkgzroiaMBUzHrlHvO5bow/0?wxfmt=jpeg)
+![ZeroToOne](http://7xlx3k.com1.z0.glb.clouddn.com/ZeroToOne.jpg)
 
 ### 简介
 

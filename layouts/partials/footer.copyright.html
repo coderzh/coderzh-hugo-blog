@@ -5,6 +5,9 @@
     <div class="nav-text"><!-- put your mobile menu text here --></div>
     <div class="nav-wrap">
       <ul id="menu-default-menu-1" class="nav container group">
+        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a rel="nofollow" href="/">首页</a>
+        </li>
         {{ range .Site.Params.Categories }}
         <li class="menu-item menu-item-type-post_type menu-item-object-page">
           <a rel="nofollow" href="/categories/{{ . | urlize }}/">{{ . }}</a>

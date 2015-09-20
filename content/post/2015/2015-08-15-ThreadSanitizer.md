@@ -22,7 +22,7 @@ ThreadSanitizer官网：[https://code.google.com/p/thread-sanitizer](https://cod
 
 ### Data Race
 
-![DataRace](https://mmbiz.qlogo.cn/mmbiz/otHvoL6neeJB2WVs1vlmIw10Knlmn8yOd04btFpRmIibfk0kMfT29nrzBmcvchJdib8I3BNqK0NaCNMu3HmM24Kg/0?wx_fmt=jpeg)
+![DataRace](http://7xlx3k.com1.z0.glb.clouddn.com/Data-race.jpg)
 
 Data Race是指多个线程在没有正确加锁的情况下，同时访问同一块数据，并且至少有一个线程是写操作，对数据的读取和修改产生了竞争，从而导致各种不可预计的问题。
 

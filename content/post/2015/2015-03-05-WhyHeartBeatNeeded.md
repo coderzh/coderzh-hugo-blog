@@ -13,12 +13,11 @@ url: /2015/03/05/WhyHeartBeatNeeded/
 
 ---
 
+![HeartBeat](http://7xlx3k.com1.z0.glb.clouddn.com/Heartbeats.jpg-w)
 
 几乎所有的网游服务端都有心跳包(HeartBeat或Ping)的设计，在最近开发手游服务端时，也用到了心跳包。思考思考，心跳包是必须的吗？为什么需要心跳包？TCP没有提供断线检测的方法吗？TCP提供的KeepAlive机制可以替代HeartBeat吗？
 
 <!--more-->
-
-![HeartBeat](https://mmbiz.qlogo.cn/mmbiz/otHvoL6neeKA0dQuDEwUD4DN5ZmOXczgsYdoyVBtvHkXtd9wVDpv3KP9D6aSa3Uia7FacGib9HADALJgLribKge5Q/0)
 
 由于连接丢失时，TCP不会立即通知应用程序。比如说，客户端程序断线了，服务端的TCP连接不会检测到断线，而是一直处于连接状态。这就带来了很大的麻烦，明明客户端已经断了，服务端还维护着客户端的连接，照常执行着该玩家的游戏逻辑……
 

@@ -11,14 +11,13 @@ url: /2015/03/01/HackerAndPainter/
 
 ---
 
+![HackersAndPainters](http://7xlx3k.com1.z0.glb.clouddn.com/hackerspainters.jpg)
 
 春节前，入手了个Kindle PaperWhite。之前一直担心Pad看书已经够用了，实际用下来，发现看书还是用Kindle好。因为Kindle能让你专心看书，不易伤眼，而且续航时间很长。
 
 之前一直想读《黑客与画家》，于是春节假期用Kindle把它读完。这本书备受赞誉，里面很多观点很好，但是我读下来，高预期之后还是有些落差。
 
 <!--more-->
-
-![HackersAndPainters](https://mmbiz.qlogo.cn/mmbiz/otHvoL6neeJVgmwOrXTASgJibTzObG8S9ibvTgURUxTzb36eK9j9rHqfdItmia7rKKib1e96qvjkuicEz6Cp0XrMYfA/0)
 
 首先是书名：黑客与画家。书中关于黑客与画家之间的联系描述的很少，主要总结为：程序员写代码并不是一气呵成，而是像画家一般，先画个轮（框）廓（架），再调整细（功）节（能），然后不然修（缺）缮（陷）。黑客写代码是一件有艺术的活，不是工程的活。
 

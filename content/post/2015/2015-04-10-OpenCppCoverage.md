@@ -17,7 +17,6 @@ url: /2015/04/10/OpenCppCoverage/
 
 ---
 
-
 Windows平台下开源的C++代码覆盖率工具，使用简单，功能齐全而强大。2014年才推出的，只恨没有早点发现。
 
 <!--more-->
@@ -49,8 +48,8 @@ Jenkins集成：[https://opencppcoverage.codeplex.com/wikipage?title=Jenkins](ht
 
 **覆盖率详细结果**
 
-![OpenCppCoverage](https://mmbiz.qlogo.cn/mmbiz/otHvoL6neeLysCAtuhz1cP8vL08tZxInJEGnXg0kvcMWWgIgZGdnFwwx9UBmGyF1NOB89JqUA8B2p2iaRut4z6Q/0)
+![codecoverage](http://7xlx3k.com1.z0.glb.clouddn.com/codecoverage.png)
 
 **Jenkins集成**
 
-![JenkinsOpenCppCoverage](https://mmbiz.qlogo.cn/mmbiz/otHvoL6neeLysCAtuhz1cP8vL08tZxInSibobsDET0XDbeIE8rloZFIiboibwgCPeaqicbbM6zR7eVy4JsgJAKmk7w/0)
+![JenkinsOpenCppCoverage](http://7xlx3k.com1.z0.glb.clouddn.com/JenkinsModuleCoverage_thumb.jpg)

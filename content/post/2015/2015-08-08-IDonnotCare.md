@@ -17,7 +17,7 @@ url: /2015/08/08/IDonnotCare/
 
 这句话曾经出现在微信的启动封面上，后来被换下了。但在QQ邮箱的登录界面，还一直使用了这句MJ的名言：
 
-![mj](https://mmbiz.qlogo.cn/mmbiz/otHvoL6neeLQ3MhKKGn1ERadHibEwA2Y2TWxUC5IQCCZVEsMm0YRPp4mn1jOiapIJllPFfvauxCMqsaytYibgehcA/0?wx_fmt=png)
+![mj](http://7xlx3k.com1.z0.glb.clouddn.com/mj.png)
 
 这句话的逻辑成立吗？“你说我是错的，那你最好证明你是对的”，显然不成立！
 

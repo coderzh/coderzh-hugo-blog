@@ -28,5 +28,5 @@ url: "/2015/09/19/mp-new-start/"
 
 最后上个图，上周刚收到的HHKB :)
 
-![HHKB](https://mmbiz.qlogo.cn/mmbiz/otHvoL6neeKIperrgdZnvO8jlsy3BIktYbicbnnB6T5EcnO3NW5QSrHrC71ZeygYxddVUZhc4WKgvwWE6NtyeJg/0?wx_fmt=jpeg)
+![HHKB](http://7xlx3k.com1.z0.glb.clouddn.com/HHKB.jpg-w)
 

@@ -159,12 +159,11 @@ python ..\GenSymbolsHeader.py $(OutDir)$(TargetName)$(TargetExt) ..\Include\Link
 
 正常情况下，不强制在linker时include静态库所有符号时，代码覆盖率结果为：
 
-![noinclude](
-https://mmbiz.qlogo.cn/mmbiz/otHvoL6neeIROs6sgW5VjmNkRl4yeDiccDhmfsroV7ebToMjAzYnUU5icLMbKZdRXqNXbcD14EJP0GRhE06b8rsg/0?wx_fmt=png)
+![noinclude](http://7xlx3k.com1.z0.glb.clouddn.com/noinclude.png-w)
 
 通过上面的方法，自动生成LinkAllSymbols.h并\#include "LinkAllSymbols.h"，覆盖率结果为：
 
-![included](https://mmbiz.qlogo.cn/mmbiz/otHvoL6neeIROs6sgW5VjmNkRl4yeDiccRxCnjVCCsUa3awNpf6AjtYiasS1OMsGD3IBD5JftyLmLAI2Pla46eqw/0?wx_fmt=png)
+![included](http://7xlx3k.com1.z0.glb.clouddn.com/included.png-w)
 
 ### github
 
