@@ -27,8 +27,8 @@
                   <h1 class="post-title">{{ .Title }}</h1>
 
                   <p class="post-byline">
-                    by {{ .GetParam "author" }} · {{ .Date.Format .Site.Params.DateForm }} · {{ .RuneCount }} Words ·
-                    ~{{ div .RuneCount 500 }}min reading time |
+                    by {{ .GetParam "author" }} · {{ .Date.Format .Site.Params.DateForm }} · {{ .WordCount }} Words ·
+                    ~{{ .ReadingTime }}min reading time |
                     <a href="https://github.com/coderzh/coderzh-hugo-blog/blob/master/content/{{ replace .Source.File.Path "\\" "/" }}"
                        target="_blank">Improve on <i class="fa fa-github"></i></a>
                   </p>
