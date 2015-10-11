@@ -21,7 +21,7 @@ url: "/2015/10/11/hugo-import-from-jekyll/"
 
 国庆长假期间，给Hugo提了几个PR，其中最主要的一个是给Hugo增加了内置的Jekyll迁移工具。这样之前的Jekyll用户可以通过一个简单的命令就可以将网站转化成Hugo站点：
 
-```
+```bash
 $ hugo import jekyll your-jekyll-dir target-dir
 ```
 
@@ -64,9 +64,13 @@ Hugo和Jekyll都是使用MarkDown来写文章的，文章内容基本上是兼�
 
 ### 代码
 
-import.go: [github.com/spf13/hugo/blob/master/commands/import.go](https://github.com/spf13/hugo/blob/master/commands/import.go)
+import.go: 
 
-import_test.go: [github.com/spf13/hugo/blob/master/commands/import_test.go](https://github.com/spf13/hugo/blob/master/commands/import_test.go)
+[https://github.com/spf13/hugo/blob/master/commands/import.go](https://github.com/spf13/hugo/blob/master/commands/import.go)
+
+import_test.go: 
+
+[https://github.com/spf13/hugo/blob/master/commands/import_test.go](https://github.com/spf13/hugo/blob/master/commands/import_test.go)
 
 我fork的Hugo Repo（我的最新改动都在这里）：
 
