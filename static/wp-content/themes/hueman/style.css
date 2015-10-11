@@ -142,7 +142,7 @@ input, textarea, button, select, label { font-family: inherit; }
 .entry blockquote p { margin-bottom: 0.75em; }
 .entry blockquote:before { }
 .entry blockquote.twitter-tweet:before { content: "\f099"; }
-.entry code, .entry pre { font-family: Hack, monospace; font-size: 15px; }
+.entry code, .entry pre { font-family: Hack, monospace; font-size: 14px; }
 .entry pre { /* background: url(img/pre.png) repeat top; padding: 1px 2px; */margin: 10px 0 15px 0; border: 1px solid #ddd; line-height: 19px; white-space: pre-wrap; word-wrap: break-word; overflow-x: auto; overflow-y: hidden; }
 .entry code { /* background: #eee; */ }
 .entry ins { background: #fff486; }
