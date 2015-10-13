@@ -62,5 +62,3 @@ Hugo的作者spf13(Steve Francia)可是一个牛人。spf13是大名鼎鼎的开
 GitHub：[https://github.com/coderzh](https://github.com/coderzh)
 
 博客：[http://blog.coderzh.com/](http://blog.coderzh.com/)
-
-dff
