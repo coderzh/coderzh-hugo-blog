@@ -10,27 +10,21 @@
         <div class="main-inner group">
           <section class="content">
             <div class="pad group">
-              {{ range first 1 .Data.Pages }}
-              {{ template "featured.html" . }}
-              {{end}}
               <div class="post-list group">
-                {{ range $index,$data:= first 7 .Data.Pages }}
-                  {{if gt $index 0}}
-                    {{ if mod $index 2 | eq 1 }}
+                {{ range .Data.Pages }}
+                  {{if ge .Date.Year .Now.Year }}
                       <div class="post-row">
-                    {{end}}
-                      {{ template "indexes/postItem.html" $data }}
-                    {{ if mod $index 2 | eq 0 }}
+                      {{ partial "postItem.html" . }}
                       </div>
-                    {{end}}
                   {{end}}
                 {{end}}
               </div>
-              <!--pagination-->
-              {{ partial "pagination.hbs" . }}
-              <!--/pagination-->
+              <nav class="pagination group">
+                  <div class="wp-pagenavi">
+                      <a class="page" href="/post/">More...</a>
+                  </div>
+              </nav>
             </div>
-
           </section>
           {{ partial "sidebarLeftCategories.html" . }}
           {{ partial "sidebarRight.html" . }}

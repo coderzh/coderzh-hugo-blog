@@ -10,11 +10,17 @@
         <div class="main-inner group">
           <section class="content">
             <div class="page-title pad group">
-              <h1><i class="fa fa-folder-open"></i>Posts with the tag: <span>{{ .Title }}</span></h1>
+              <h1><i class="fa fa-folder-open"></i>Category: <span>{{ .Title }}</span></h1>
             </div>
             <div class="pad group">
-
-              {{ template "indexes/postListGroup.html" . }}
+              <!--<div class="notebox">-->
+                <!--{{ if eq .Title "Australien" }}-->
+                <!--<p>Unsere Abenteuer in Australien</p>-->
+                <!--{{else}}-->
+                <!--<p>Weiteres ...</p>-->
+                <!--{{end}}-->
+              <!--</div>-->
+              {{ partial "postListGroup.html" . }}
             </div>
           </section>
           {{ partial "sidebarLeftCategories.html" . }}

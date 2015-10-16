@@ -13,14 +13,7 @@
               <h1><i class="fa fa-folder-open"></i>Category: <span>{{ .Title }}</span></h1>
             </div>
             <div class="pad group">
-              <!--<div class="notebox">-->
-                <!--{{ if eq .Title "Australien" }}-->
-                <!--<p>Unsere Abenteuer in Australien</p>-->
-                <!--{{else}}-->
-                <!--<p>Weiteres ...</p>-->
-                <!--{{end}}-->
-              <!--</div>-->
-              {{ template "indexes/categoryListGroup.html" . }}
+              {{ partial "postListGroup.html" . }}
             </div>
           </section>
           {{ partial "sidebarLeftCategories.html" . }}

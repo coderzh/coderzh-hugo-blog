@@ -42,7 +42,7 @@ def deploy():
                              shell=True, stdout=subprocess.PIPE)
         commit_msg = s.communicate()[0]
         # step2 build
-        os.system('hugo -v  --cacheDir="./cache"')
+        os.system('hugo -v -t rapid --cacheDir="./cache"')
 
     gh_pages_dir = os.path.join(parent_dir, 'gh-pages')
 
