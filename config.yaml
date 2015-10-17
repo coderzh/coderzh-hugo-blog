@@ -23,7 +23,7 @@ params:
   DateForm : "2006年01月02日"
   Tagline: "一个程序员的思考与总结"
   Description: "如果你没有感觉到时间不够用时，你多半正在虚度光阴。"
-  Keywords: "独立博客,程序员的思考"
+  Keywords: "独立博客,程序员,思考,读书笔记,技术分享"
   Categories:
     - "读书笔记"
     - "技术文章"

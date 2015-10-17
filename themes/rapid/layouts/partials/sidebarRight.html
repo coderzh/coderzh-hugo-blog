@@ -13,22 +13,5 @@
         {{ end }}
       </ul>
     </div>
-    <div id="tag_cloud-2" class="widget widget_tag_cloud"><h3>Tags</h3>
-      <div class="tagcloud">
-        <p class="post-tags">
-          {{if isset .Params "tags" }}
-              {{ range .Params.tags }}
-                <a rel="tag" href="/tags/{{ . | urlize }}/">{{ . }}</a>
-              {{ end }}
-            {{else}}
-              {{ range $k,$v:= .Site.Taxonomies.tags }}
-              <a rel="tag" href="/tags/{{ $k | urlize }}/"
-                 class="tag-link-{{ $v.Count }}"
-                 title="{{ $v.Count }} Posts">{{ $k }}</a>
-              {{ end}}
-          {{ end }}
-        </p>
-      </div>
-    </div>
   </div>
 </div>
