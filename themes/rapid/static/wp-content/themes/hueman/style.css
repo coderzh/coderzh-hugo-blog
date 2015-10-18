@@ -131,7 +131,7 @@ input, textarea, button, select, label { font-family: inherit; }
 .entry ol ul,
 .entry ul ul,
 .entry ul ol { margin-bottom: 0; }
-.entry li { margin-top: 0.6em; }
+.entry li { margin-top: 0.1em; }
 .entry ul li,
 .entry ol ul li { list-style: square; }
 .entry ol li,
