@@ -13,7 +13,7 @@ url: "/2015/10/11/open-source-thinking/"
 
 ---
 
-![OpenSource](http://7xlx3k.com1.z0.glb.clouddn.com/OpenSource.png-w)
+![OpenSource](http://7xlx3k.com1.z0.glb.clouddn.com/OpenSource.png-wt)
 
 <!--more-->
 
