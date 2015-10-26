@@ -53,3 +53,7 @@ url: "/2015/10/25/gohugo-org/"
 对于如此优秀的东西，希望能与更多人分享，通过分享和交流，希望能促进Hugo变得越来越好，让它更加广为人知。
 
 因此，所有对Hugo感兴趣的朋友欢迎加入贡献内容，同时也欢迎有任何疑问、建议或交流的朋友加入Hugo交流QQ群：512499080。
+
+或者微信扫一扫关注我的微信公众号：hacker-thinking
+
+![qrcode](http://blog.coderzh.com/public/qrcode.jpg)
