@@ -144,7 +144,13 @@ input, textarea, button, select, label { font-family: inherit; }
 .entry blockquote.twitter-tweet:before { content: "\f099"; }
 .entry code, .entry pre { font-family: Hack, monospace; font-size: 14px; }
 .entry pre { /* background: url(img/pre.png) repeat top; padding: 1px 2px; */margin: 10px 0 15px 0; border: 1px solid #ddd; line-height: 19px; white-space: pre-wrap; word-wrap: break-word; overflow-x: auto; overflow-y: hidden; }
-.entry code { /* background: #eee; */ }
+code {     
+    padding: 2px 4px;
+    font-size: 90%;
+    color: #c7254e;
+    background-color: #f9f2f4;
+    border-radius: 4px;
+}
 .entry ins { background: #fff486; }
 .entry sub,
 .entry sup { font-size: 62.5%; }
