@@ -47,6 +47,6 @@ Issue 提交地址： [https://github.com/coderzh/gohugo.org/issues](https://git
 
 待翻译文档路径： [https://github.com/coderzh/gohugo.org/tree/master/content/doc](https://github.com/coderzh/gohugo.org/tree/master/content/doc)
 
-然后 Fork 该 [Repo](https://github.com/coderzh/gohugo.org) ，通过 Pull Request 的方式提交过来便是，不胜感激。
+然后 Fork 该 [Repo](https://github.com/coderzh/gohugo.org) ，通过 Pull Request 的方式提交过来便是。
 
 <!--more-->
