@@ -21,15 +21,15 @@ url: "/2015/11/07/front-end-dev/"
 
 上周挖了个坑，这周末怎么也得填上。对于大多数前端框架，我都并未用过，但我还是想聊一聊，这些前端框架从何而来，解决了什么问题，又有哪些高明之处。
 
-认识了解问题，切忌一头扎进去研究而未了解其全貌。为此，我们追溯到20世纪90年代，网景浏览器横空出世，占据了浏览器市场第一的份额。那时的网景浏览器已经搭载了 Cookie、 Frames 和 JavaScript 等功能，可惜好景不长，在后来与微软的“浏览器大战”中败下了阵来。
+认识了解问题，切忌一头扎进去研究而未了解其全貌。为此，我们追溯到20世纪90年代，网景浏览器横空出世，占据了浏览器市场第一的份额。那时的网景浏览器已经搭载了 Cookie、 Frames 和 JavaScript 等功能，可惜好景不长，再后来与微软的“浏览器大战”中败下了阵来。
 
-后来网景公司将代码开源，创造了 Mozilla ，也就是现在的 Firefox。可以说，浏览器大战从未停止过，Opera 、 Safari 、 Google Chrome …… 当然，还有微软的 Internet Explorer 以及一些其他的浏览器。各浏览器引擎不同，标准不一，苦了的就是我们的主角：前端开发。
+于是网景公司将代码开源，创造了 Mozilla ，也就是现在的 Firefox。可以说，浏览器大战从未停止过，Opera 、 Safari 、 Google Chrome …… 当然，还有微软的 Internet Explorer 以及一些其他的浏览器。各浏览器引擎不同，标准不一，苦了的就是我们的主角：前端开发。
 
 ### 排版引擎
 
 ![web-kit-renders](http://7xlx3k.com1.z0.glb.clouddn.com/web-kit-renders.jpg-wt)
 
-所有这些浏览器，使用最广泛的无非是这些引擎： Gecko 、 WebKit 和 Trident 。最早的 Netscape 使用的是 Gecko 排版引擎，后来的 Firefox 继承了它的衣钵。微软从 Spyglass 公司买来技术开发了 Internet Explorer ， 使用了 Trident 引擎。苹果开发了 WebKit ，做出了 Safari 浏览器，后来引擎开源， Google 做出了基于 WebKit 的 Chrome 。
+所有这些浏览器，使用最广泛的无非是这些引擎： **Gecko 、 WebKit 和 Trident** 。最早的 Netscape 使用的是 Gecko 排版引擎，后来的 Firefox 继承了它的衣钵。微软从 Spyglass 公司买来技术开发了 Internet Explorer ， 使用了 Trident 引擎。苹果开发了 WebKit ，做出了 Safari 浏览器，后来引擎开源， Google 做出了基于 WebKit 的 Chrome 。
 
 有人会说，那 QQ浏览器、360浏览器、世界之窗、搜狗浏览器之类的，这些浏览器只是套了 Chrome 或 IE 的内核罢了。
 
@@ -81,7 +81,7 @@ jQuery 不仅解决了浏览器兼容的问题，还提供了大量的简便语�
 
 需求越来越多，功能越来越复杂，使得 JavaScript 本身的缺点暴露了出来。 JavaScript 过于灵活，代码的组织过于零散，一旦需求变得复杂，这一大坨一大坨的 JavaScript 代码将变得难以维护。特别是如今崇尚的快速开发、快速试错的开发模式，臃肿、难以组织和维护的 JavaScript 代码成了一个需要重要解决的问题。
 
-于是，如何将 JavaScript 代码如何有效的组织和分类，如何简化代码的写法成为了研究的重点。就连 1978 年就被提出的 MVC 模式也被应用到了前端开发的框架之中。
+于是，如何将 JavaScript 代码有效的组织和分类，如何简化代码的写法成为了研究的重点。就连 1978 年就被提出的 MVC 模式也被应用到了前端开发的框架之中。
 
 ### MVC
 
