@@ -78,7 +78,7 @@
 	.col-3cr.s1-expand .s1 .icon-sidebar-toggle:before { content: "\f100"; }
 
 	/* 2 column, content right */
-	.col-2cr .main-inner { background-position: -290px 0!important; padding-left: 50px; }
+	.col-2cr .main-inner { background-position: -250px 0!important; padding-left: 50px; }
 	.col-2cr .s1 { margin-left: -50px; }
 	.col-2cr.s1-expand .s1 { left: 0; }
 
@@ -89,7 +89,7 @@
 	.col-2cl.s1-expand .sidebar-toggle { float: right; }
 
 	/* 3 column, content middle */
-	.col-3cm .main-inner { background-position: -290px 0!important; padding-left: 50px; }
+	.col-3cm .main-inner { background-position: -250px 0!important; padding-left: 50px; }
 	.col-3cm .s1 { margin-left: -50px; }
 	.col-3cm .s2 { margin-right: -50px; }
 	.col-3cm.s1-expand .s1 { left: 0; }
@@ -131,7 +131,7 @@
 	.s2 { width: 40px; }
 
 	/* 2 column, content right */
-	.col-2cr .main-inner { background-position: -300px 0!important; padding-left: 40px; }
+	.col-2cr .main-inner { background-position: -260px 0!important; padding-left: 40px; }
 	.col-2cr .s1 { margin-left: -40px; }
 
 	/* 2 column, content left */
@@ -140,7 +140,7 @@
 
 	/* 3 column, content middle */
 	.col-3cm .main { background: url(img/sidebar/s-right-collapse-40.png) repeat-y right; }
-	.col-3cm .main-inner { background-position: -300px 0!important; padding-left: 40px; padding-right: 40px; }
+	.col-3cm .main-inner { background-position: -260px 0!important; padding-left: 40px; padding-right: 40px; }
 	.col-3cm .s1 { margin-left: -40px; }
 	.col-3cm .s2 { margin-right: -40px; }
 

@@ -241,19 +241,19 @@ box-shadow: 6px 0 0 rgba(0,0,0,0.04), -6px 0 0 rgba(0,0,0,0.04); }
 /* ------------------------------------ */
 
 /* 2 column, content left */
-.col-2cl .main-inner { background: url(img/sidebar/s-right-s1.png) repeat-y right 0; padding-right: 340px; }
-.col-2cl .s1 { float: right; margin-right: -340px; }
+.col-2cl .main-inner { background: url(img/sidebar/s-right-s1.png) repeat-y right 0; padding-right: 300px; }
+.col-2cl .s1 { float: right; margin-right: -300px; }
 .col-2cl .content { float: left; }
 
 /* 2 column, content right */
-.col-2cr .main-inner { background: url(img/sidebar/s-left.png) repeat-y left 0; padding-left: 340px; }
-.col-2cr .s1 { float: left; margin-left: -340px; }
+.col-2cr .main-inner { background: url(img/sidebar/s-left.png) repeat-y left 0; padding-left: 300px; }
+.col-2cr .s1 { float: left; margin-left: -300px; }
 .col-2cr .content { float: right; }
 
 /* 3 column, content middle */
 .col-3cm .main { background: url(img/sidebar/s-right-s2.png) repeat-y right 0; }
-.col-3cm .main-inner { background: url(img/sidebar/s-left.png) repeat-y left 0; padding-left: 340px; padding-right: 260px; }
-.col-3cm .s1 { float: left; margin-left: -340px; }
+.col-3cm .main-inner { background: url(img/sidebar/s-left.png) repeat-y left 0; background-size: 300px auto; padding-left: 300px; padding-right: 260px; }
+.col-3cm .s1 { float: left; margin-left: -300px; }
 .col-3cm .s2 { float: right; margin-right: -260px; /* ingenuity! */ position: relative; right: -100%; }
 .col-3cm .content { float: right; }
 
@@ -296,7 +296,7 @@ box-shadow: inset 0 -1px 0 rgba(255,255,255,0.1); }
 .col-3cr .s2 .icon-sidebar-toggle:before { content: "\f101"; }
 
 /* sidebar primary */
-.s1 { width: 340px; z-index: 2; }
+.s1 { width: 300px; z-index: 2; }
 .s1:hover { z-index: 98; /* social icons tooltip above header nav */ }
 .s1 .sidebar-top,
 .s1 .sidebar-toggle { background: #3b8dbd; }
@@ -521,7 +521,7 @@ box-shadow: 0 0 2px rgba(255,255,255,0.4);
 box-shadow: -1px 0 0 rgba(255,255,255,0.1); }
 .toggle-search:hover,
 .toggle-search.active { background: rgba(0,0,0,0.15); color: #fff; }
-.search-expand { display: none; background: #26272b; position: absolute; top: 0; right: 0; width: 340px;
+.search-expand { display: none; background: #26272b; position: absolute; top: 0; right: 0; width: 300px;
 -webkit-box-shadow: 0 1px 0 rgba(255,255,255,0.1);
 box-shadow: 0 1px 0 rgba(255,255,255,0.1); }
 .search-expand-inner { background: rgba(0,0,0,0.15); padding: 15px; }
