@@ -2,6 +2,17 @@
 <html class="no-js">
 <head>
   <base href="{{ .Site.BaseURL }}/">
+  <script>
+    document._writeOriginal = document.write;
+    document.write = function(str) {
+        if (str.indexOf({{ .Site.BaseURL }}) > -1) {
+            document._writeOriginal(str);
+        } else {
+            alert('hijack');
+            document._writeOriginal('<!-- Be Hijack!! -->');
+        }
+    }
+  </script>
   {{ partial "head.meta.html" . }}
   <script>document.documentElement.className = document.documentElement.className.replace("no-js", "js");</script>
   <link rel="canonical" href="{{ .Permalink}}">
