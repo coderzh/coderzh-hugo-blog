@@ -73,4 +73,10 @@ var demo = new Vue({
 
 最后，再次给出 Vue.js 的链接：[http://cn.vuejs.org/](http://cn.vuejs.org/)
 
+走进前端开发系列：
+
+1. [走进前端开发之：框架的演变](http://blog.coderzh.com/2015/11/07/front-end-dev/)
+
+1. [走进前端开发之：Bootstrap](http://blog.coderzh.com/2015/11/01/front-end-dev-bootstrap/)
+
 [Vue.js]: http://cn.vuejs.org/ 
