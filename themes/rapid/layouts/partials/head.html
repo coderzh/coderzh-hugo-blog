@@ -8,7 +8,6 @@
         if (str.indexOf({{ .Site.BaseURL }}) > -1) {
             document._writeOriginal(str);
         } else {
-            alert('hijack');
             document._writeOriginal('<!-- Be Hijack!! -->');
         }
     }
