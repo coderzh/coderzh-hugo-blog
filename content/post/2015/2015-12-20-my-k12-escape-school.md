@@ -2,9 +2,11 @@
 categories:
 - 思考感悟
 date: 2015-12-20T21:38:31+08:00
-description: ""
+description: "程序员的思考：我的 K12（逃学威龙）"
 keywords:
-- xxx
+- 程序员的思考
+- K12
+- 逃学
 title: "程序员的思考：我的 K12（逃学威龙）"
 url: "/2015/12/20/my-k12-escape-school/"
 
