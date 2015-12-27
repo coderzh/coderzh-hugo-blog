@@ -11,11 +11,9 @@ url: "/2015/12/27/code-review/"
 
 ---
 
-![cr](http://7xlx3k.com1.z0.glb.clouddn.com/cr.jpg-wt)
+代码审查（Code Review）是个老生常谈的话题了，我以前呆过的大公司也好，创业公司也好，都知道 Code Review 的好处，但真正去有效执行的却很少。有人认为“存在即合理”，大家都不愿意做 Code Review ，可能 Code Review 真的不好，影响开发效率。有的人想做，但是执行起来太困难。
 
 <!--more-->
-
-代码审查（Code Review）是个老生常谈的话题了，我以前呆过的大公司也好，创业公司也好，都知道 Code Review 的好处，但真正去有效执行的却很少。有人认为“存在即合理”，大家都不愿意做 Code Review ，可能 Code Review 真的不好，影响开发效率。有的人想做，但是执行起来太困难。
 
 造成大家放弃 Code Review 的原因有哪些呢？我仔细想了想，大概有这几种：
 
