@@ -13,7 +13,7 @@ keywords:
 - 攻击
 - 泄露
 title: "如何设计一个安全的账户系统"
-url: "/2016/01/03/security/"
+url: "/2016/01/03/security-design/"
 
 ---
 
