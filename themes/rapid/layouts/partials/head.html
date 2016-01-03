@@ -5,7 +5,7 @@
   <script>
     document._writeOriginal = document.write;
     document.write = function(str) {
-        if (str.indexOf({{ .Site.BaseURL }}) > -1) {
+        if (str.indexOf('livereload.js') > -1) {
             document._writeOriginal(str);
         } else {
             document._writeOriginal('<!-- Be Hijack!! -->');
