@@ -12,7 +12,7 @@ keywords:
 - hash
 - 攻击
 - 泄露
-title: "如何设计一个安全的账户系统"
+title: "设计安全的账号系统的正确姿势"
 url: "/2016/01/03/security-design/"
 
 ---
