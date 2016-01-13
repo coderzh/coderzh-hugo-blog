@@ -20,9 +20,9 @@ url: "/2016/01/13/password-security-additional/"
 
 所以，我更希望大家从辩证的角度去看待前两篇文章，然后结合自身项目的情况去做相应的设计。同时，我收到不少有价值的反馈，我觉得有必要将这些反馈整理一下，给大家一些参考，也算是对前面文章的补充。
 
-上篇文章没有提到 [HTTPS](https://zh.wikipedia.org/wiki/%E8%B6%85%E6%96%87%E6%9C%AC%E4%BC%A0%E8%BE%93%E5%AE%89%E5%85%A8%E5%8D%8F%E8%AE%AE)（SSL/TLS），是我疏漏了。作为一个安全的系统，在保证传输安全时强烈建议直接上 HTTPS（SSL/TLS）。文章中使用 [ECDH](https://msdn.microsoft.com/zh-cn/library/cc488016%28v=vs.90%29.aspx) 交换密钥传输的过程其实和 HTTPS（SSL/TLS）是类似的，只不过 HTTPS（SSL/TLS）实现的要完善一些。
+上篇文章没有提到 [HTTPS](https://zh.wikipedia.org/wiki/%E8%B6%85%E6%96%87%E6%9C%AC%E4%BC%A0%E8%BE%93%E5%AE%89%E5%85%A8%E5%8D%8F%E8%AE%AE)（SSL/TLS），是我疏漏了。作为一个安全的系统，在保证传输安全时强烈建议直接上 HTTPS（SSL/TLS）。文章中使用 [ECDH](https://msdn.microsoft.com/zh-cn/library/cc488016%28v=vs.90%29.aspx) 交换密钥传输的过程其实和 HTTPS（SSL/TLS）是类似的，只不过 HTTPS（SSL/TLS）实现的要完善太多。
 
-正如一位朋友反馈所说：“14年的时候 openssl 爆出过一个名为 heartbleed 的漏洞，可见良好的算法不一定被良好的实现，所以从开发者的角度还是不要觉得存在绝对安全的算法比较好。” 所以可以认为我的方案是在 HTTPS（SSL/TLS）基础上再一层加固，当然，如果你认为这一层加固没必要也可以去掉。
+正如一位朋友反馈所说：“14年的时候 openssl 爆出过一个名为 [Heartbleed](https://zh.wikipedia.org/wiki/%E5%BF%83%E8%84%8F%E5%87%BA%E8%A1%80%E6%BC%8F%E6%B4%9E) 的漏洞，可见良好的算法不一定被良好的实现，所以从开发者的角度还是不要觉得存在绝对安全的算法比较好。” 所以可以认为我的方案是在 HTTPS（SSL/TLS）基础上再一层加固，当然，如果你认为这一层加固没必要也可以去掉。
 
 另一方面，目前大量网站还在使用 HTTP ，很多游戏设计时也并未使用 TLS ，所以，我上篇文章使用的方法还是有一定的意义的。
 
