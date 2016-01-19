@@ -6,7 +6,7 @@ url: /about/
 
 
 <p class="message">
-大家好，我叫CoderZh，是一名程序员。
+大家好，我叫 CoderZh，是一名程序员。
 </p>
 
 
@@ -14,16 +14,17 @@ url: /about/
 
  * 2003-2007 中南大学土木工程系 
  * 2007-2011 测试开发（SDET 金山软件）。
- * 2011-2015 Unity3D游戏服务端主程、3DMMORPG端游程序员（创业公司）
- * 2015.3.13 - 至今 “再小的个体，也有自己的品牌”
+ * 2011-2015 Unity3D 游戏服务端主程、3DMMORPG 端游程序员（创业公司）
+ * 2015.3.13 - 至今「再小的个体，也有自己的品牌」
 
 ### 我的技能
 
- * 编程语言：C++, C#, Python, Lua。钟爱Python，正捣鼓Go……
- * 网站开发：略懂前端，常常瞎折腾css+js，喜欢后端，通常使用Tornado。
- * 熟悉Cocos2d-X游戏开发。
- * Unity3D打打酱油。
+ * 编程语言：C++, C#, Python, Lua。钟爱 Python，捣鼓 Go……
+ * 网站开发：略懂前端，常常瞎折腾 css+js，喜欢后端，通常使用 Tornado。
+ * 熟悉 Cocos2d-X 游戏开发。
+ * Unity3D 打打酱油。
  * 网游服务端开发有一定的经验。
+ * 会一点 Android 开发。
  * 测试开发
 
 ### 生活中的我
@@ -49,7 +50,6 @@ url: /about/
  * Github: [github.com/coderzh](https://github.com/coderzh)
  * Email：coderzh@qq.com(pythonzh@gmail.com)
  * 微信公众号：hacker-thinking    
-   <img src="http://blog.coderzh.com/public/qrcode.jpg" alt="qrcode" width="172px" height="172px"/>
 
 ### 声明
 
