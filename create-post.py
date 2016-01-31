@@ -8,6 +8,9 @@ import re
 import subprocess
 from datetime import datetime
 
+# replace to vim or others if your like
+EDITOR = 'MarkdownPad2.exe'
+
 if __name__ == '__main__':
     post_name = raw_input("Post'title: ")
 
@@ -40,4 +43,6 @@ if __name__ == '__main__':
 
     with open(post_rel_path, 'w') as f:
         f.write(content)
+
+    subprocess.call([EDITOR, post_rel_path])
 
