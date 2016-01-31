@@ -1,6 +1,7 @@
 ---
 categories:
 - 技术文章
+- 读书笔记
 date: '2010-02-07'
 title: 《xUnit Test Patterns》学习笔记7(完) - 总结
 url: /2010/02/07/xUnit-Test-Patterns7-End/

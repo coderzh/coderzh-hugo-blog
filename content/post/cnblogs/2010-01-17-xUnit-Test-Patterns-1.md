@@ -1,5 +1,6 @@
 ---
 categories:
+- 读书笔记
 - 技术文章
 date: '2010-01-17'
 title: 《xUnit Test Patterns》学习笔记1 - Test Smell

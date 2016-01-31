@@ -1,6 +1,7 @@
 ---
 categories:
 - 技术文章
+- 读书笔记
 date: '2010-01-31'
 title: 《xUnit Test Patterns》学习笔记6 - Test Double
 url: /2010/01/31/xUnit-Test-Patterns6-Test-Double/
