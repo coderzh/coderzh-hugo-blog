@@ -44,5 +44,5 @@ if __name__ == '__main__':
     with open(post_rel_path, 'w') as f:
         f.write(content)
 
-    subprocess.call([EDITOR, post_rel_path])
+    subprocess.Popen([EDITOR, post_rel_path])
 
