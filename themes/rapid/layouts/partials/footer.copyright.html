@@ -1,30 +1,11 @@
 <footer id="footer">
-
-  <nav class="nav-container group" id="nav-footer">
-    <div class="nav-toggle"><i class="fa fa-bars"></i></div>
-    <div class="nav-text"><!-- put your mobile menu text here --></div>
-    <div class="nav-wrap">
-      <ul id="menu-default-menu-1" class="nav container group">
-        <li class="menu-item menu-item-type-post_type menu-item-object-page">
-          <a rel="nofollow" href="/">首页</a>
-        </li>
-        {{ range .Site.Params.Categories }}
-        <li class="menu-item menu-item-type-post_type menu-item-object-page">
-          <a rel="nofollow" href="/categories/{{ . | urlize }}/">{{ . }}</a>
-        </li>
-        {{ end }}
-      </ul>
-    </div>
-  </nav>
-  <!--/#nav-footer-->
-
   <section class="container" id="footer-bottom">
     <div class="container-inner">
       <a id="back-to-top" href="#"><i class="fa fa-angle-up"></i></a>
       <div class="pad group">
         <div class="grid one-half">
           <div id="copyright">
-            <p>Copyright © 2015. All Rights Reserved. <br>Powered by
+            <p>Copyright © 2016. All Rights Reserved. <br>Powered by
               <a rel="nofollow" href="http://gohugo.io/" target="_blank">Hugo - the static site generator</a>.
               <a rel="nofollow" href="http://golang.org" target="_blank">#golang</a>.
             </p>
@@ -41,5 +22,4 @@
     <!--/.container-inner-->
   </section>
   <!--/.container-->
-
 </footer>

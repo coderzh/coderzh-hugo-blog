@@ -62,24 +62,17 @@
                 <!--/.post-inner-->
               </article>
               <!--/.post-->
-
               <div class="clear"></div>
-
+              <!--
               <p class="post-tags">
                 <span>Tags:</span>
                 {{ range .Params.tags }}
                 <a rel="tag" href="/tags/{{ . | urlize }}">{{ . }}</a>
                 {{ end }}
-              </p>
-
-              {{ partial "relatedPosts.html" . }}
-
-              {{ partial "duoshuo.html" . }}
-
-              <!--/#comments-->
+              </p>-->
+              <!--{{ partial "relatedPosts.html" . }}-->
+              <!--{{ partial "duoshuo.html" . }}-->
             </div>
-
-
           </section>
           {{ partial "sidebarLeft.html" . }}
           {{ partial "sidebarRight.html" . }}
