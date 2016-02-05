@@ -48,6 +48,8 @@ def deploy(args):
             subprocess.call('git checkout master', shell=True)
             subprocess.call('git reset --hard origin/master', shell=True)
             subprocess.call('git clean -fdx', shell=True)
+            subprocess.call('git submodule init', shell=True)
+            subprocess.call('git submodule update', shell=True)
             
         # on windows set TERM=msys
         s = subprocess.Popen('git log -1 --pretty=format:"%s"',

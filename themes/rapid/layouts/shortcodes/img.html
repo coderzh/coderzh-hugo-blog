@@ -1,9 +1,0 @@
-<a href="wp-content/uploads/{{ .Get 0 }}.jpg">
-  <picture>
-    <source srcset="wp-content/uploads/{{ .Get 0 }}x0480.jpg" media="(max-width: 480px)">
-    <source srcset="wp-content/uploads/{{ .Get 0 }}x0768.jpg" media="(max-width: 768px)">
-    <source srcset="wp-content/uploads/{{ .Get 0 }}x0960.jpg" media="(max-width: 1024px)">
-    <source srcset="wp-content/uploads/{{ .Get 0 }}x1024.jpg" media="(min-width: 1025px)">
-    <img srcset="wp-content/uploads/{{ .Get 0 }}x1024.jpg" alt="img {{ .Get 0 }}">
-  </picture>
-</a>

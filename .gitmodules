@@ -1,0 +1,3 @@
+[submodule "themes/hugo-rapid-theme"]
+	path = themes/hugo-rapid-theme
+	url = https://github.com/coderzh/hugo-rapid-theme.git
