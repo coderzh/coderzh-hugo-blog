@@ -50,6 +50,7 @@ def deploy(args):
             subprocess.call('git clean -fdx', shell=True)
             subprocess.call('git submodule init', shell=True)
             subprocess.call('git submodule update', shell=True)
+            subprocess.call('git submodule foreach git pull --rebase origin master', shell=True)
             
         # on windows set TERM=msys
         s = subprocess.Popen('git log -1 --pretty=format:"%s"',
