@@ -23,9 +23,10 @@ url: "/2016/02/09/my-first-mac/"
 1. Total Commander 装机必备的神器，谁用谁知道。
 2. Launchy 效率神器，快速启动程序。作者长时间未更新，最近换成了另外一个神器：Wox 。没用过的赶紧试试，有惊喜。
 3. Clipx / Ditto 多重剪贴板。
-4. Visual Studio 的 Visual Assist 插件，一个字就是爽。
-5. Visual Studio 的 ViEmu 插件，没有 Vim 模式的 IDE 已经没法用了。
-6. ...
+4. cmder 终端模拟器，好用到爆，从此告别系统自带的命令行窗口。
+5. Visual Studio 的 Visual Assist 插件，一个字就是爽。
+6. Visual Studio 的 ViEmu 插件，没有 Vim 模式的 IDE 已经没法用了。
+7. ...
 
 《必然》一书的『过滤』一章中提到，如果你只接触那些你已经喜欢的东西是有风险的，即你可能会卷入一个以自我为中心的漩涡，从而对任何与你的标准存在细微差异的事情都视而不见，即使你原本会喜欢它。这种现象被称为『过滤器泡沫』。
 
