@@ -12,7 +12,16 @@ Hugo自带watch的调试模式，可以在我修改MarkDown文章之后切换到
 
 Demo：[http://blog.coderzh.com/](http://blog.coderzh.com/)
 
-界面参考 [http://cyrillschumacher.com/](http://cyrillschumacher.com/) 做了一些修改，并做了一个皮肤：rapid。 
+界面参考 [http://cyrillschumacher.com/](http://cyrillschumacher.com/) 做了一些修改，并做了一个皮肤：[rapid](https://github.com/coderzh/hugo-rapid-theme)。 
+
+需要该皮肤的朋友请单独 clone 这个皮肤：[https://github.com/coderzh/hugo-rapid-theme](https://github.com/coderzh/hugo-rapid-theme)
+
+我的博客使用 git submodule 的方式引用的 rapid 皮肤，所以，clone 本 repo 后，记得执行：
+
+```
+git submodule init
+git submodule update
+```
 
 ### 启动调试
 
