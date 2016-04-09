@@ -38,8 +38,8 @@ frontMatterDate: "{year}-{month}-{day} {hour}:{minute}"
 # front matter template
 frontMatter: """
 ---
-title: "{title}"
-date: "{date}"
+title: "<title>"
+date: "<date>"
 description: ""
 categories:
  - 读书笔记
