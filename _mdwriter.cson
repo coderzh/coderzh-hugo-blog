@@ -34,20 +34,20 @@ newDraftFileName: "{slug}{extension}"
 newPostFileName: "{year}-{month}-{day}-{slug}{extension}"
 
 # front matter date format, determines the {date} in frontMatter
-frontMatterDate: "{year}-{month}-{day} {hour}:{minute}"
+frontMatterDate: "{year}-{month}-{day}T{hour}:{minute}:{second}+08:00"
 # front matter template
 frontMatter: """
 ---
-title: "<title>"
-date: "<date>"
-description: ""
+title: <title>
+date: '<date>'
+description: ''
 categories:
  - 读书笔记
  - 技术文章
  - 思考感悟
 keywords:
  - xxx
-url: "{year}/{month}/{day}/{slug}/"
+url: {year}/{month}/{day}/{slug}/
 
 ---
 """
