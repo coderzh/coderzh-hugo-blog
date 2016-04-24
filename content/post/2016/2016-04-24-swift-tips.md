@@ -1,5 +1,5 @@
 ---
-title: Swift 速查手册
+title: Swift 语言学习及速查手册
 date: '2016-04-24T23:21:16+08:00'
 description: Swift 速查手册，快速入门
 categories:
