@@ -1,10 +1,10 @@
 ---
-title: 善良比聪明更重要
+title: 善良比聪明更难
 date: '2016-05-15T11:32:15+08:00'
 categories:
  - 思考感悟
 keywords:
- - 善良比聪明更重要
+ - 善良比聪明更难
 url: 2016/05/15/kind-or-clever/
 
 ---
