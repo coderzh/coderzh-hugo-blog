@@ -1,7 +1,7 @@
 title: "CoderZh Blog"
 languageCode: "zh-CN"
 baseurl: "http://blog.coderzh.com"
-copyright: "Copyright (c) 2015. All rights reserved."
+copyright: "Copyright (c) 2017. All rights reserved.  <a href='http://www.miitbeian.gov.cn/'>粤ICP备17074587号-1</a>"
 theme: "hugo-rapid-theme"
 MetaDataFormat: "yaml"
 canonifyurls: true
@@ -18,7 +18,6 @@ Taxonomies:
   tag: "tags"
   category: "categories"
 params:
-  CopyrightHTML: "Copyright &#xA9; 2015. All Rights Reserved."
   GitHubUser: "coderzh"
   SidebarRecentLimit: 5
   DateForm : "2006年01月02日"
