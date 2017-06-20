@@ -26,13 +26,7 @@ git submodule update
 ### 启动调试
 
 ```
-$ python debug.py
-```
-
-或者
-
-```
-$ hugo server -w -t rapid
+$ hugo server
 ```
 
 打开浏览器：http://localhost:1313
