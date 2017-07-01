@@ -14,9 +14,11 @@ disablePathToLower: true
 hasCJKLanguage: true
 permalinks:
   posts: /:year/:month/:day/:slug/
+
 Taxonomies:
   tag: "tags"
   category: "categories"
+
 params:
   GitHubUser: "coderzh"
   SidebarRecentLimit: 5
