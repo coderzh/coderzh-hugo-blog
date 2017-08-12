@@ -9,11 +9,20 @@ builddrafts: false
 PaginatePath: paginator
 pygmentsStyle: "default"
 pygmentsUseClasses: true
-RSSUri: "feed.xml"
 disablePathToLower: true 
 hasCJKLanguage: true
 permalinks:
   posts: /:year/:month/:day/:slug/
+
+outputs:
+  home:
+    - "RSS"
+    - "HTML"
+
+outputFormats:
+  RSS:
+    mediatype: "application/rss"
+    baseName: "feed"
 
 Taxonomies:
   tag: "tags"
