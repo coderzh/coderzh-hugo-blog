@@ -43,7 +43,7 @@ http://gohugo.io/tutorials/automated-deployments/](http://gohugo.io/tutorials/au
 
 webhook是GitHub上提供的Git的一种Hook机制，当代码发生变化时，比如代码被Push到GitHub的Repo时，GitHub会自动请求一个你指定的网页，并且把变更相关的参数都传递过来。入口在Repo的Settings - webhooks & services
 
-![webhook](http://7xlx3k.com1.z0.glb.clouddn.com/WebHook.png-w)
+![webhook](http://image.coderzh.com/WebHook.png-w)
 
 说明文档：[https://developer.github.com/webhooks/](https://developer.github.com/webhooks/)
 
@@ -88,7 +88,7 @@ http://yourserver:9876/hooks/redeploy-webhook
 
 ### 自动部署
 
-![AutoDeploy](http://7xlx3k.com1.z0.glb.clouddn.com/AutoDeploy.png-w)
+![AutoDeploy](http://image.coderzh.com/AutoDeploy.png-w)
 
 大致的流程如上图。上图的DigitalOcean是一台VPS服务器，我用了很长时间了，速度和稳定性都不错。需要的同学使用这个链接购买，可以获得10美元的优惠：[https://www.digitalocean.com/?refcode=e131e2bba197](https://www.digitalocean.com/?refcode=e131e2bba197)
 

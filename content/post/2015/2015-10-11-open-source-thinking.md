@@ -13,7 +13,7 @@ url: "/2015/10/11/open-source-thinking/"
 
 ---
 
-![OpenSource](http://7xlx3k.com1.z0.glb.clouddn.com/OpenSource.png-wt)
+![OpenSource](http://image.coderzh.com/OpenSource.png-wt)
 
 <!--more-->
 
@@ -53,7 +53,7 @@ Hugo的作者spf13(Steve Francia)可是一个牛人。spf13是大名鼎鼎的开
 
 通过hugo import功能刷了近600行代码之后，我在Hugo的贡献者列表里可以看到，已经一共刷了近千行代码了，算上删除的话。：）
 
-![hugo-coderzh](http://7xlx3k.com1.z0.glb.clouddn.com/hugo-coderzh.png-ws)
+![hugo-coderzh](http://image.coderzh.com/hugo-coderzh.png-ws)
 
 由于时区和远程协作的关系，GitHub上协作时有时候需要等待，但我依然认为这是一种非常高效的协作方式。因为社区的力量是强大的，在大量社区用户的推动之下，项目每天都在改进，每天都在向更好的方向推动和前进，这才是项目保持长久活力的重要根本。
 

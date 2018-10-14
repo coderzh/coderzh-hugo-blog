@@ -15,7 +15,7 @@ url: "/2015/11/07/front-end-dev/"
 
 ---
 
-![angular-backbone-react-logo](http://7xlx3k.com1.z0.glb.clouddn.com/angular-backbone-react-logo.jpg-wt)
+![angular-backbone-react-logo](http://image.coderzh.com/angular-backbone-react-logo.jpg-wt)
 
 <!--more-->
 
@@ -27,7 +27,7 @@ url: "/2015/11/07/front-end-dev/"
 
 ### 排版引擎
 
-![web-kit-renders](http://7xlx3k.com1.z0.glb.clouddn.com/web-kit-renders.jpg-wt)
+![web-kit-renders](http://image.coderzh.com/web-kit-renders.jpg-wt)
 
 所有这些浏览器，使用最广泛的无非是这些引擎： **Gecko 、 WebKit 和 Trident** 。最早的 Netscape 使用的是 Gecko 排版引擎，后来的 Firefox 继承了它的衣钵。微软从 Spyglass 公司买来技术开发了 Internet Explorer ， 使用了 Trident 引擎。苹果开发了 WebKit ，做出了 Safari 浏览器，后来引擎开源， Google 做出了基于 WebKit 的 Chrome 。
 
@@ -41,7 +41,7 @@ HTML 负责描述界面的元素结构， CSS 负责描述界面的样式表现�
 
 随着 Web2.0 的概念炒起来，动态网站逐渐成为主流。早期的动态网站，随便的一个数据更新都要刷新整个页面，体验逐渐变得不可接受。于是，局部数据刷新成了当时的热点，这就是当年炒的很热的 Ajax 技术。
 
-![Ajax](http://7xlx3k.com1.z0.glb.clouddn.com/ajax.jpg)
+![Ajax](http://image.coderzh.com/ajax.jpg)
 
 Ajax 的全称是 Asynchronous JavaScript and XML , 即异步 JavaScript 和 XML 技术。当时炒的神乎其神，而其根本本质其实很简单，就是 XMLHttpRequest ，然后配合 DOM 的操作，就可以变化出各种不同的花样出来。 XMLHttpRequest 负责和服务器交互，返回数据后通过 DOM 的操作动态实时的更新界面元素。
 
@@ -69,7 +69,7 @@ if (typeof XMLHttpRequest != "undefined") {
 
 ### jQuery
 
-![jQuery](http://7xlx3k.com1.z0.glb.clouddn.com/jQuery.jpg)
+![jQuery](http://image.coderzh.com/jQuery.jpg)
 
 jQuery 是一套跨浏览器的 JavaScript 库，既然大家都这么痛苦要处理兼容问题，那何不让我一个人来承受。自 jQuery 从 2006 年 1 月发布第一个版本以来，现在已完全占领市场。据统计，全球前10,000个访问最高的网站中，有65%使用了jQuery 。
 
@@ -85,7 +85,7 @@ jQuery 不仅解决了浏览器兼容的问题，还提供了大量的简便语�
 
 ### MVC
 
-![MVC](http://7xlx3k.com1.z0.glb.clouddn.com/mvc.jpg)
+![MVC](http://image.coderzh.com/mvc.jpg)
 
 MVC 是一种软件架构分层的思想。将软件系统分为三个基本部分：模型（Model）、视图（View）和控制器（Controller）。
 
@@ -159,7 +159,7 @@ ReactDOM.render(<HelloMessage name="John" />, mountNode);
 
 关于 Angular.js 、 Backbone.js 、 React.js ， 如果你是这三种的使用者，也许更有发言权一些。我在百度指数里对比了 angularjs , backbone , react 这三个关键字：
 
-![angular-backbone-react](http://7xlx3k.com1.z0.glb.clouddn.com/angular-backbone-react.jpg-ws)
+![angular-backbone-react](http://image.coderzh.com/angular-backbone-react.jpg-ws)
 
 可见 Angular 一经推出便先发制人增长迅猛，而 React 开始阶段和 Backbone几乎并列，但从 2015 年开始爆发，增长速度直指 Angular ， 发展不可估量。
 

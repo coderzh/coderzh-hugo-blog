@@ -47,7 +47,7 @@ var demo = new Vue({
 
 在 Safari 6.1, OS X 的评测里，Vue.js 的性能直接排到了第一的位置：
 
-![todomvc-perf-Safari](http://7xlx3k.com1.z0.glb.clouddn.com/todomvc-pef-Safari.png)
+![todomvc-perf-Safari](http://image.coderzh.com/todomvc-pef-Safari.png)
 
 所以，我现在就有冲动拿 [Vue.js] 来做点东西了，刚好目前要做的一个项目可以用上，这样可以少写很多烦人的 JavaScript 代码了，简直完美。
 
@@ -55,13 +55,13 @@ var demo = new Vue({
 
 在 GitHub 上， [Vue.js] 已经收集了 9500 多个 Star，为了让更多人参与进来贡献代码，作者坚持保持代码测试的覆盖率为 100% 。
 
-![vue-cov](http://7xlx3k.com1.z0.glb.clouddn.com/vue-cov.jpg)
+![vue-cov](http://image.coderzh.com/vue-cov.jpg)
 
 [Vue.js] 的目标是通过尽可能简单的 API 实现**响应的数据绑定**和**组合的视图组件**。
 
 **响应的数据绑定** 就是数据驱动视图的概念。它让你在写 Web 应用界面时，只需要关注两件事：数据如何展示和数据如何变化。一旦数据发生变化时，比如用户输入，或者 ajax 请求返回后数据发现修改，对应的视图界面会自动的进行更新。（之前的做法是使用 jQuery 手动操作 DOM 更新界面元素。）
 
-![mvvm](http://7xlx3k.com1.z0.glb.clouddn.com/mvvm.jpg)
+![mvvm](http://image.coderzh.com/mvvm.jpg)
 
 定义好数据如何展示，绑定数据后，就只需要关心数据如何变化的事情了，是不是感觉 So Easy ！
 

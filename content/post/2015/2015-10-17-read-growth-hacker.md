@@ -12,7 +12,7 @@ url: "/2015/10/17/read-growth-hacker/"
 
 ---
 
-![GrowthHacker](http://7xlx3k.com1.z0.glb.clouddn.com/GrowthHacker.jpg-wt)
+![GrowthHacker](http://image.coderzh.com/GrowthHacker.jpg-wt)
 
 <!--more-->
 

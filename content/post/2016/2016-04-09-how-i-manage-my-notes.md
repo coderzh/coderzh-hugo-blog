@@ -57,13 +57,13 @@ Mac 下支持 Markdown 的笔记软件多如牛毛，支持本地文档库管理
 
 在 Alfred 中我定制了一个笔记管理的 Workflow，当需要查找某一篇笔记时，只需要按下 `f` 空格，输入需要检索的标题或正文关键字，Alfred 就可以直接列出对于的笔记文件，回车后即可直接打开。
 
-![find-notes](http://7xlx3k.com1.z0.glb.clouddn.com/find-notes.png-s)
+![find-notes](http://image.coderzh.com/find-notes.png-s)
 
 #### 笔记编辑
 
 当我想记录编程相关的笔记时，只需要按下 `np` 空格，输入文字标题，将自动在合适的路径创建一个新的笔记并打开编辑。（n = new，p = programming 分类）
 
-![new-notes](http://7xlx3k.com1.z0.glb.clouddn.com/new-notes.png-s)
+![new-notes](http://image.coderzh.com/new-notes.png-s)
 
 我会用 Atom 来打开和编辑笔记文件，因为它真的很好用。在 Atom 里，安装如下几个插件，编辑 Markdown 的体验将会爽的飞起：
 
@@ -73,13 +73,13 @@ Mac 下支持 Markdown 的笔记软件多如牛毛，支持本地文档库管理
 4. **markdown-wirter** 用来管理 Markdown 文档，用来写博客会很方便。
 5. **Zen** 神器，cmd + ctrl + z 进入无干扰书写模式，其中 Typewriter 打字机模式非常不错，当你输入到屏幕中间时，可以让输入的当前行一直保持在屏幕中间。
 
-![atom-markdown](http://7xlx3k.com1.z0.glb.clouddn.com/atom-markdown.png-s)
+![atom-markdown](http://image.coderzh.com/atom-markdown.png-s)
 
 #### Alfred Workflow
 
 想实现上面 `f` 和 `np` 之类的功能非常简单，通过组合 Workflow 里的 FileFilter、ScriptFilter、Run Script 即可。
 
-![MyNotes-Workflow](http://7xlx3k.com1.z0.glb.clouddn.com/MyNotes-Workflow.png-s)
+![MyNotes-Workflow](http://image.coderzh.com/MyNotes-Workflow.png-s)
 
 你可以在 Alfred 的 Workflow 中定制自己的快捷键、笔记类别、笔记路径，非常的简单。如果不知道怎样定制，可以参考我的 Workflow：
 
@@ -93,7 +93,7 @@ Mac 下支持 Markdown 的笔记软件多如牛毛，支持本地文档库管理
 
 在支持 Dropbox 同步同时又支持 Markdown 编辑的 App 里选择，最后我选择了 [Byword](https://bywordapp.com/)，因为它的 Markdown 编写体验真的很好。
 
-![byword](http://7xlx3k.com1.z0.glb.clouddn.com/byword.PNG)
+![byword](http://image.coderzh.com/byword.PNG)
 
 ### 保证笔记文件不丢失
 

@@ -30,11 +30,11 @@ Hugo 本身有很多不错的主题，但挑剔的朋友可能会觉得还不够
 
 主页：
 
-![hugo-pacman-tn](http://7xlx3k.com1.z0.glb.clouddn.com/hugo-pacman-tn.png)
+![hugo-pacman-tn](http://image.coderzh.com/hugo-pacman-tn.png)
 
 文章页面：
 
-![hugo-pacman-theme](http://7xlx3k.com1.z0.glb.clouddn.com/hugo-pacman-theme.png)
+![hugo-pacman-theme](http://image.coderzh.com/hugo-pacman-theme.png)
 
 #### 支持功能
 

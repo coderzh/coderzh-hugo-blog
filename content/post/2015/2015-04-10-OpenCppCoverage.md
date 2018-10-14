@@ -48,8 +48,8 @@ Jenkins集成：[https://opencppcoverage.codeplex.com/wikipage?title=Jenkins](ht
 
 **覆盖率详细结果**
 
-![codecoverage](http://7xlx3k.com1.z0.glb.clouddn.com/codecoverage.png)
+![codecoverage](http://image.coderzh.com/codecoverage.png)
 
 **Jenkins集成**
 
-![JenkinsOpenCppCoverage](http://7xlx3k.com1.z0.glb.clouddn.com/JenkinsModuleCoverage_thumb.jpg)
+![JenkinsOpenCppCoverage](http://image.coderzh.com/JenkinsModuleCoverage_thumb.jpg)

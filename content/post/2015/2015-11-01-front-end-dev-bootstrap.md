@@ -16,7 +16,7 @@ url: "/2015/11/01/front-end-dev-bootstrap/"
 
 ---
 
-![bootstrap](http://7xlx3k.com1.z0.glb.clouddn.com/bootstrap.jpg-wt)
+![bootstrap](http://image.coderzh.com/bootstrap.jpg-wt)
 
 <!--more-->
 
@@ -123,7 +123,7 @@ Bootstrap 提供了一套完整的基础 CSS 模块，预定义了一套简单�
 
 比如：
 
-![bootstrap-grid](http://7xlx3k.com1.z0.glb.clouddn.com/bootstrap-grid.jpg)
+![bootstrap-grid](http://image.coderzh.com/bootstrap-grid.jpg)
 
 ```html
 <div class="row">

@@ -17,7 +17,7 @@ url: "/2016/01/03/security-design/"
 
 ---
 
-![security](http://7xlx3k.com1.z0.glb.clouddn.com/security.jpg-wt)
+![security](http://image.coderzh.com/security.jpg-wt)
 
 <!--more-->
 
@@ -74,15 +74,15 @@ url: "/2016/01/03/security-design/"
 
 如何进行加盐就是一门很重要的学问了。md5 是一种 hash 算法，以下就拿 md5 来举例。假如密码是 123456 ，md5 的结果如下：
 
-![md5](http://7xlx3k.com1.z0.glb.clouddn.com/md5.png)
+![md5](http://image.coderzh.com/md5.png)
 
 像 123456 这样的简单密码，是很容易被逆推出来的。但是假如我们往简单密码里加点盐试试：
 
-![md5-salt](http://7xlx3k.com1.z0.glb.clouddn.com/md5-salt.png)
+![md5-salt](http://image.coderzh.com/md5-salt.png)
 
 上面例子里的 `#g5Fv;0Dvk` 就是我们加的盐。加完之后，密码的强度更高了，彩虹表破解的难度加大了。或者进行加盐两次 md5 ：
 
-![double-md5-salt](http://7xlx3k.com1.z0.glb.clouddn.com/double-md5-salt.png)
+![double-md5-salt](http://image.coderzh.com/double-md5-salt.png)
 
 到这里，你一定会有疑问，是不是把 md5 多做几次，或者自定义一些组合的方式就更安全了。其实不是的，黑客既然能拿到数据库里的数据，也很有可能拿到你的代码。
 
@@ -94,7 +94,7 @@ url: "/2016/01/03/security-design/"
 
 大部分情况下，使用 md5(md5(password) + salt) 方式加密基本上已经可以了：
 
-![salt](http://7xlx3k.com1.z0.glb.clouddn.com/salt.png)
+![salt](http://image.coderzh.com/salt.png)
 
 其中，最关键的是 salt 从哪里来？ salt 该怎么设置才能安全。有几个重要的点：
 
@@ -186,7 +186,7 @@ key 可以保存在极高安全性的通用的 key 管理系统，使用加密�
 
 非对称加密是实现验证服务端合法性的基础，常见的加密算法有 [RSA](http://baike.baidu.com/view/10613.htm) 、 [ECC](http://baike.baidu.com/view/584834.htm) 等 。服务端生成一对公钥和私钥，公钥是公开的所有人都知道，客户端需要和服务端通信时，使用该公钥进行数据加密，由于只有真实合法的服务端才拥有对应的私钥，所有只有真实的服务端才能解密该信息，然后返回数据给客户端时，使用客户端自己生成的公钥进行加密，这样数据只有对应的客户端才能理解。
 
-![rsa](http://7xlx3k.com1.z0.glb.clouddn.com/rsa.gif)
+![rsa](http://image.coderzh.com/rsa.gif)
 
 使用 HTTPS 时，数字证书里包含了名称和公钥信息，只要认证该证书是合法的，并且对方能理解用该公钥加密的信息，就能确定是合法的服务端。
 
@@ -196,11 +196,11 @@ key 可以保存在极高安全性的通用的 key 管理系统，使用加密�
 
 即使在不安全的通信环境下，也可以协商出一个只有双方才知道的对称加密密钥。在《改变未来的九大算法》一书里，有一个经典的描述如何交互密钥的例子（在所有沟通都是透明的情况下，如何协商出一个只有你和阿诺德才知道的颜料颜色。）：
 
-![sharedkey](http://7xlx3k.com1.z0.glb.clouddn.com/sharedkey.jpg)
+![sharedkey](http://image.coderzh.com/sharedkey.jpg)
 
 [ECDH](https://msdn.microsoft.com/zh-cn/library/cc488016%28v=vs.90%29.aspx) 就是基于上面原理设计的密钥交换算法：
 
-![ecdh](http://7xlx3k.com1.z0.glb.clouddn.com/ecdh.png)
+![ecdh](http://image.coderzh.com/ecdh.png)
 
 密钥协商好后，双方就可以使用该密钥进行加密传输了，比如使用 AES 、 DES。
 

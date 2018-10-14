@@ -17,7 +17,7 @@ url: /2015/04/20/ZeroToOne/
 
 <!--more-->
 
-![ZeroToOne](http://7xlx3k.com1.z0.glb.clouddn.com/ZeroToOne.jpg)
+![ZeroToOne](http://image.coderzh.com/ZeroToOne.jpg)
 
 ### 简介
 

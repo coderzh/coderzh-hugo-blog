@@ -17,13 +17,13 @@ url: "/2015/11/14/http-dns-hijack/"
 
 首先，广告长这样：
 
-![blogads](http://7xlx3k.com1.z0.glb.clouddn.com/blogads.jpg)
+![blogads](http://image.coderzh.com/blogads.jpg)
 
 太可恨了！我的网站是 [http://blog.coderzh.com/](http://blog.coderzh.com/)， 检查了网站的源文件，没有被修改的痕迹，也根本不会有什么广告代码。所以怀疑是被运营商劫持了！
 
 我使用的是广州电信100M光纤，被挂广告只有在家里上电信光纤时会出现，连手机里访问也会有广告：
 
-![phoneads](http://7xlx3k.com1.z0.glb.clouddn.com/phoneads.jpg)
+![phoneads](http://image.coderzh.com/phoneads.jpg)
 
 但是如果手机连的是联通4G，就没有一点问题！
 
@@ -31,7 +31,7 @@ url: "/2015/11/14/http-dns-hijack/"
 
 [http://weibo.com/2388714105/D2013qUSo?type=comment#_rnd1447506909896](http://weibo.com/2388714105/D2013qUSo?type=comment#_rnd1447506909896)
 
-![yunfengads](http://7xlx3k.com1.z0.glb.clouddn.com/yunfengads.jpg-ws)
+![yunfengads](http://image.coderzh.com/yunfengads.jpg-ws)
 
 另一个博主也遇到这个问题：[网站被黑了随机挂ca-pub-8129816473729933的google广告，怎么办？](http://www.lovefcwr.com/20151110-google-ca-pub-8129816473729933)
 
@@ -64,7 +64,7 @@ url: "/2015/11/14/http-dns-hijack/"
 
 于是在 Chrome 里 “审查元素”里跟踪了一下，看看到底是如何篡改的。通过查看 Elements ，发现 html 里被嵌入了以下代码：
 
-![adjs2](http://7xlx3k.com1.z0.glb.clouddn.com/adsjs2.jpg-w)
+![adjs2](http://image.coderzh.com/adsjs2.jpg-w)
 
 picturefill.min.js 是我网站使用的一个正常的 js 文件，查看网页源码发现，出现了两条关于 picturefill.min.js 的代码：
 
@@ -75,9 +75,9 @@ picturefill.min.js 是我网站使用的一个正常的 js 文件，查看网页
 
 然后再查看请求 picturefill.min.js 时返回了什么：
 
-![fakejs](http://7xlx3k.com1.z0.glb.clouddn.com/fakejs.jpg-w)
+![fakejs](http://image.coderzh.com/fakejs.jpg-w)
 
-![rightjs](http://7xlx3k.com1.z0.glb.clouddn.com/rightjs.jpg-w)
+![rightjs](http://image.coderzh.com/rightjs.jpg-w)
 
 上面显示，请求 picturefill.min.js 时，返回的竟然是被篡改的内容，被篡改的内容里，先是再次请求了一次原版的 picturefill.min.js ，然后就是插入 google 的广告代码。
 
@@ -85,7 +85,7 @@ picturefill.min.js 是我网站使用的一个正常的 js 文件，查看网页
 
 最后这段恶意篡改的 js 代码生成出来的嵌入广告是这样的：
 
-![adjs](http://7xlx3k.com1.z0.glb.clouddn.com/adsjs.jpg-w)
+![adjs](http://image.coderzh.com/adsjs.jpg-w)
 
 之后又试验了多次，总结了进行 HTTP 劫持的基本套路：
 

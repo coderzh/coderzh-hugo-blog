@@ -68,7 +68,7 @@ go build
 
 不久后，Hugo的主要维护者之一通过了我的PR，很友善的将我蹩脚的中国式英语的commit message调整了一下合并到了Hugo的master：
 
-![HugoPR](http://7xlx3k.com1.z0.glb.clouddn.com/HugoPR.png-w)
+![HugoPR](http://image.coderzh.com/HugoPR.png-w)
 
 commit: [https://github.com/spf13/hugo/commit/52d94fa67578f6b63035e73b236ca8abd40d0006](https://github.com/spf13/hugo/commit/52d94fa67578f6b63035e73b236ca8abd40d0006)
 

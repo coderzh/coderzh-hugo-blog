@@ -15,7 +15,7 @@ url: "/2015/10/11/hugo-import-from-jekyll/"
 
 ---
 
-![HugoImportJekyll](http://7xlx3k.com1.z0.glb.clouddn.com/HugoImportJekyll.png-wt)
+![HugoImportJekyll](http://image.coderzh.com/HugoImportJekyll.png-wt)
 
 <!--more-->
 

@@ -36,7 +36,7 @@ url: /2015/05/11/NewChange/
 
 除了阅读，就是写作，把看书的笔记、平时工作学习的总结、生活的感悟通过文字重新组织表达出来，在我的博客和微信公众号里同时发布。我的微信公众号也才开通不久，希望大家多多支持。扫描下面的二维码或者直接关注：hacker-thinking （一个程序员的思考）
 
-![hacker-thinking](http://7xlx3k.com1.z0.glb.clouddn.com/qrcode.jpg)
+![hacker-thinking](http://image.coderzh.com/qrcode.jpg)
 
 另外，希望我能把跑步坚持下来，加油吧。
 

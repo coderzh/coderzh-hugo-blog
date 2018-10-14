@@ -12,7 +12,7 @@ url: "/2015/12/20/my-k12-escape-school/"
 
 ---
 
-![taoxue](http://7xlx3k.com1.z0.glb.clouddn.com/taoxue.jpg-wt)
+![taoxue](http://image.coderzh.com/taoxue.jpg-wt)
 
 <!--more-->
 
