@@ -10,7 +10,7 @@ from datetime import datetime
 
 # replace to vim or others if your like
 # EDITOR = ['MarkdownPad2.exe']
-EDITOR = ['atom']
+EDITOR = ['code']
 
 if __name__ == '__main__':
     post_name = raw_input("Post'title: ")
