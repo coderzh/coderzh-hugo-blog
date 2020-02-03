@@ -58,7 +58,7 @@ def deploy(args):
                              shell=True, stdout=subprocess.PIPE)
         commit_msg = s.communicate()[0].decode('utf-8').encode(locale.getpreferredencoding())
         # step2 build
-        subprocess.call('hugo -v --cacheDir="./cache"', shell=True)
+        subprocess.call('hugo -v', shell=True)
 
     deploy_dir = os.path.join(parent_dir, DEPLOY_DIR)
 
