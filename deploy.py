@@ -14,7 +14,7 @@ __author__ = 'coderzh'
 GIT_REPO = [
     ['origin',  'gh-pages', 'git@github.com:coderzh/hugo-blog-deployed.git'],
     # ['gitcafe', 'gh-pages', 'git@gitcafe.com:coderzh/coderzh-hugo-blog.git'],
-    ['coding',  'gh-pages', 'git@git.coding.net:coderzh/hugo-blog-deployed.git'],
+    # ['coding',  'gh-pages', 'git@git.coding.net:coderzh/hugo-blog-deployed.git'],
 ]
 
 DEPLOY_DIR = 'gh-pages'
