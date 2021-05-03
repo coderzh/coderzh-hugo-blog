@@ -13,7 +13,7 @@ from datetime import datetime
 EDITOR = ['code']
 
 if __name__ == '__main__':
-    post_name = raw_input("Post'title: ")
+    post_name = input("Post'title: ")
 
     post_path = 'post/{year}/{date_format}-{post_name}.md'.format(
         year=datetime.now().year,
