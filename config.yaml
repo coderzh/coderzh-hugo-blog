@@ -14,6 +14,10 @@ hasCJKLanguage: true
 permalinks:
   posts: /:year/:month/:day/:slug/
 
+markup:
+  highlight:
+    codeFences: false
+
 outputs:
   home:
     - "RSS"
