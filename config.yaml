@@ -1,7 +1,7 @@
 title: "CoderZh Blog"
 languageCode: "zh-CN"
 baseurl: "https://blog.coderzh.com"
-copyright: "Copyright (c) 2017. All rights reserved.  <a href='http://www.miitbeian.gov.cn/'>粤ICP备17074587号-1</a>"
+copyright: "Copyright (c) 2017. All rights reserved.  <a href='https://beian.miit.gov.cn/'>粤ICP备17074587号-1</a>"
 theme: "hugo-rapid-theme"
 MetaDataFormat: "yaml"
 canonifyurls: true
