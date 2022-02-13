@@ -7,13 +7,17 @@ import os
 import re
 import subprocess
 from datetime import datetime
+import sys
 
 # replace to vim or others if your like
 # EDITOR = ['MarkdownPad2.exe']
 EDITOR = ['code']
 
 if __name__ == '__main__':
-    post_name = input("Post'title: ")
+    if len(sys.argv) > 1:
+        post_name = sys.argv[1]
+    else:
+        post_name = input("Post'title: ")
 
     post_path = 'post/{year}/{date_format}-{post_name}.md'.format(
         year=datetime.now().year,
