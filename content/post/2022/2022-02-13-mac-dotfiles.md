@@ -13,9 +13,9 @@ url: "/2022/02/13/mac-dotfiles/"
 
 如果你不知道什么是 dotfiles，那你就不会知道什么是 dotfiles。如果你知道什么是 dotfiles，那你就知道什么是 dotfiles。
 
-16 年曾经写过一篇《[懒程序员和他的 dotfiles](https://blog.coderzh.com/2016/03/19/dotfiles/)》，这篇是 6 年后的更新版本。这些年来，软件有发生很多变化。比如编译器软件 atom 日渐没落，vscode 已经成了主流。Homebrew casks 也默认集成进了 Homebrew 主程序。
+16 年曾经写过一篇《[懒程序员和他的 dotfiles](https://blog.coderzh.com/2016/03/19/dotfiles/)》，这篇是 6 年后的更新版本。这些年来，软件有发生很多变化。比如编辑器软件 atom 日渐没落，vscode 已经成了主流。Homebrew casks 也默认集成进了 Homebrew 主程序。
 
-之前曾用 mackup 软件用了自动备份和恢复各软件的配置。到今天，已经越来越多软件支持了云端同步配置。比如 vscode 的云端同步设置就非常好用，只要登录 Github 账号，所有的设置，插件瞬间恢复了。
+之前曾用 mackup 软件用来自动备份和恢复各软件的配置。到今天，已经越来越多软件支持了云端同步配置。比如 vscode 的云端同步设置就非常好用，只要登录 Github 账号，所有的设置，插件瞬间恢复了。
 
 这几天再试验 mackup，发现虽然它支持的软件很多，但难免对某些软件的设置备份存在问题。比如 iTerm2 的设置不能自动备份和恢复。如果需要经常对 mackup 的软件备份规则进行自定义，则维护的成本太高。随着软件的不断更新，通过 mackup 来维护配置会变得越来越困难。
 
