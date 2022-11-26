@@ -14,7 +14,7 @@ url: "/2015/10/23/livecoding"
 
 ---
 
-![livecoding](http://image.coderzh.com/livecoding.jpg-wt)
+![livecoding](images/livecoding.jpg)
 
 <!--more-->
 
@@ -34,7 +34,7 @@ url: "/2015/10/23/livecoding"
 
 后来查了下资料，具体是这样的：
 
-![HandmadeHero](http://image.coderzh.com/HandmadeHero.jpg-w)
+![HandmadeHero](images/HandmadeHero.jpg)
 
 [Casey Muratori](http://mollyrocket.com/casey/about.html)是西雅图的一名经验丰富的游戏引擎开发者，据他的介绍，他已经拥有30年的游戏开发经验，参与开发的游戏引擎被数以千计的游戏采用。但是他经常抱怨现在的开发者有那么好的硬件条件，却做不出高效率的游戏出来。
 
@@ -50,7 +50,7 @@ url: "/2015/10/23/livecoding"
 
 ### Livecoding.tv
 
-![livecoding-example](http://image.coderzh.com/livecoding-example.jpg-w)
+![livecoding-example](images/livecoding-example.jpg)
 
 后来甚至出来一个专门的直播写代码网站：[Livecoding](http://www.livecoding.tv)，是Y-Combinator孵化器下的项目，确实是正儿八经的要进军这个看起来非常小众的市场。
 

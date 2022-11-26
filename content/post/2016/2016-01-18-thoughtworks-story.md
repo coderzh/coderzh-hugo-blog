@@ -11,7 +11,7 @@ url: "/2016/01/18/thoughtworks-story/"
 
 ---
 
-![TW](http://image.coderzh.com/TW.jpg-wt)
+![TW](images/TW.jpg)
 
 <!--more-->
 

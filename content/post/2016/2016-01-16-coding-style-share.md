@@ -15,11 +15,11 @@ url: "/2016/01/16/coding-style-share/"
 
 上次写了一篇《[大家都应该做的 Code Review](http://blog.coderzh.com/2015/12/27/code-review/)》，在公众号里有位朋友留言：
 
-![comment](http://image.coderzh.com/comments.jpg)
+![comment](images/comments.jpg)
 
 开始的感觉是，哦，又一个在留言里推广自己网站的家伙。但在好奇心驱使下，我打开了这个 [Codingstyle.cn](http://codingstyle.cn) 的网站。
 
-![coding-style](http://image.coderzh.com/coding-style.jpg)
+![coding-style](images/coding-style.jpg)
 
 界面挺简洁大方的，但好像在哪里见过，哦，原来是 Fork 的 [Ruby China](https://ruby-china.org/)。浏览了一些帖子，发现这是一个刚做不久的程序员社区，讨论的主要是敏捷、重构、编程实践、程序人生之类的话题，这位朋友还算比较用心，运营一个程序员社区实属不易，于是我就找了之前的两篇文章贴了过去。
 
@@ -37,7 +37,7 @@ url: "/2016/01/16/coding-style-share/"
 
 我是从第二期开始参加的，一开始我非常好奇，他们是怎样在那么多人的微信群里进行直播分享的。最后发现其实方法非常简单直接，就是：**发语音，截图，打字**。
 
-![coding-style-share](http://image.coderzh.com/coding-style-share.jpg)
+![coding-style-share](images/coding-style-share.jpg)
 
 分享定在每周三晚上 8:30 到 9:30 ，首先会自愿报名选出一个主持人，负责整场分享的进度把控。分享者的内容是一篇文章，会先在群里发出来，然后分享者开始发语音分享，过程中会穿插打字和截图。分享完后，进行话题讨论，最后贴出分享者的二维码，大家自愿打赏。
 

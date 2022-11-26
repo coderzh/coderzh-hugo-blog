@@ -31,19 +31,19 @@ url: "/2015/10/25/gohugo-org/"
 
 #### 首页
 
-![gohugo-index](http://image.coderzh.com/gohugo-index.jpg-w)
+![gohugo-index](images/gohugo-index.jpg)
 
 #### 文章列表
 
-![gohugo-post](http://image.coderzh.com/gohugo-post.jpg-w)
+![gohugo-post](images/gohugo-post.jpg)
 
 #### 皮肤列表
 
-![gohugo-theme](http://image.coderzh.com/gohugo-theme.jpg-w)
+![gohugo-theme](images/gohugo-theme.jpg)
 
 #### 示例网站
 
-![gohugo-showcase](http://image.coderzh.com/gohugo-showcase.jpg-w)
+![gohugo-showcase](images/gohugo-showcase.jpg)
 
 
 ### 关于Hugo

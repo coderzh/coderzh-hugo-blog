@@ -16,13 +16,13 @@ url: /2015/03/29/AugmentedTrafficControl/
 
 <!--more-->
 
-![ATC](http://image.coderzh.com/ATC.jpg-w)
+![ATC](images/ATC.jpg)
 
 现在已经是APP时代了，由于手机网络的特殊性，移动APP需要面临更加复杂的网络环境。在设计之初就要考虑如何应对各种网络环境，比如很高的延迟，经常丢包，频繁的断线。特别是手游，断线重连机制设计的好坏直接影响到游戏的体验。
 
 所以，在开发过程中模拟各种网络环境进行测试变得越来越重要。在ATC出来之前，微软曾经有一个网络模拟工具NEWT（Network Emulator for Windows Toolkit），使用起来也是方便。（NEWT的诞生也蛮有意思，见：[NEWT的前世今生](http://blog.sina.com.cn/s/blog_4caedc7a0100g9y6.html)）
 
-![NEWT](http://image.coderzh.com/NEWT.jpg-w)
+![NEWT](images/NEWT.jpg)
 
 那么，对比NEWT，ATC有些什么特点呢？
 
@@ -125,7 +125,7 @@ sudo python manage.py runserver 0.0.0.0:8000
 
 用手机连接上去试试吧。看看虚拟机的IP，比如我设置的是192.168.6.1，手机浏览器里访问：http://192.168.6.1:8000
 
-![ATCWeb](http://image.coderzh.com/ATCWeb.jpg-w)
+![ATCWeb](images/ATCWeb.jpg)
 
 在手机的界面里，你可以分别对网络上行下行进行设置，主要设置的参数有：
 

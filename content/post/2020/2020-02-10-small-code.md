@@ -16,4 +16,4 @@ url: "/2020/02/10/small-code/"
 
 觉得不错就点个关注吧~
 
-![](http://image.coderzh.com/smallcode.JPG)
+![](images/smallcode.JPG)

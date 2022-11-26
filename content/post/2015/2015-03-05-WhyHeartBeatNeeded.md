@@ -13,7 +13,7 @@ url: /2015/03/05/WhyHeartBeatNeeded/
 
 ---
 
-![HeartBeat](http://image.coderzh.com/Heartbeats.jpg-w)
+![HeartBeat](images/Heartbeats.jpg)
 
 几乎所有的网游服务端都有心跳包(HeartBeat或Ping)的设计，在最近开发手游服务端时，也用到了心跳包。思考思考，心跳包是必须的吗？为什么需要心跳包？TCP没有提供断线检测的方法吗？TCP提供的KeepAlive机制可以替代HeartBeat吗？
 

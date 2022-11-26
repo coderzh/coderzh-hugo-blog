@@ -11,7 +11,7 @@ url: "/2015/09/21/xcode-ghost/"
 
 ---
 
-![xcodeghost](http://image.coderzh.com/xcodeghost.jpg-w)
+![xcodeghost](images/xcodeghost.jpg)
 
 <!--more-->
 

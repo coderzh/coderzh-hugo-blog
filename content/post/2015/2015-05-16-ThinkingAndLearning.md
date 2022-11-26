@@ -22,7 +22,7 @@ url: /2015/05/16/ThinkingAndLearning/
 
 以下是读书过程中摘录的部分笔记，以及一点点自己的思考。（以下只是书中部分观点，详情请阅读原版书籍）
 
-![ThinkingAndLearning](http://image.coderzh.com/PragmaticThinking.jpg)
+![ThinkingAndLearning](images/PragmaticThinking.jpg)
 
 <br />
 > 1.一个开发人员声称拥有十年的经验，但实际上只是一年的经验重复了九次，那么这就不算是经验。
@@ -158,5 +158,5 @@ Mac我还买不起，Windows上的Launchy、TotalCommand、Vim等等还是必不
 
 欢迎关注我的微信公众号：hacker-thinking，谢谢支持！
 <br />
-![hacker-thinking](http://image.coderzh.com/qrcode.jpg)
+![hacker-thinking](images/qrcode.jpg)
 

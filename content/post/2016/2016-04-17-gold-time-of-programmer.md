@@ -6,7 +6,7 @@ categories:
 url: 2016/04/17/gold-time-of-programmer/
 ---
 
-![goldtime](http://image.coderzh.com/goldtime.jpg)
+![goldtime](images/goldtime.jpg)
 
 （第一次尝试写小说，本文仅向王小波致敬，情节纯属虚构，切勿对号入座。）
 

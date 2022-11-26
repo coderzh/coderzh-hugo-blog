@@ -32,7 +32,7 @@ url: "/2015/12/27/code-review/"
 
 首先要避免 Code Review 工具提交过程过于复杂冗长，相关的工具有很多，不管是开源的还是商业的（比如：[Phabricator](http://phabricator.org/)、[Gerrit](https://www.gerritcodereview.com/)）。GitHub 的 Pull Request 其实是很好的 Code Review 工具。在 GitHub 上，你发现一个好项目想改进它，你只要点击 Fork ，增加你要的功能，然后通过 Pull Request 贡献你的代码。
 
-![pr](http://image.coderzh.com/pr.jpg)
+![pr](images/pr.jpg)
 
 “废话少说，Send me a pull request!” 是不是感觉这句话叼叼的。
 
@@ -49,6 +49,6 @@ url: "/2015/12/27/code-review/"
 1. 很好的给予新人指导，给出有建设性的意见，帮助新人成长，做好知识的传承。
 1. 通过评审摩擦火花，互相欣赏，找到心灵相惜的好基友或终身伴侣。
 
-![code-review](http://image.coderzh.com/code-review.jpg)
+![code-review](images/code-review.jpg)
 
 Code Review ，你做了就知道！

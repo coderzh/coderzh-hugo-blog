@@ -12,7 +12,7 @@ url: "/2015/11/29/hacker-thinking-mooc/"
 
 ---
 
-![mooc](http://image.coderzh.com/mooc.jpg-wt)
+![mooc](images/mooc.jpg)
 
 <!--more-->
 

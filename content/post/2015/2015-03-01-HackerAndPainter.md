@@ -11,7 +11,7 @@ url: /2015/03/01/HackerAndPainter/
 
 ---
 
-![HackersAndPainters](http://image.coderzh.com/hackerspainters.jpg)
+![HackersAndPainters](images/hackerspainters.jpg)
 
 春节前，入手了个Kindle PaperWhite。之前一直担心Pad看书已经够用了，实际用下来，发现看书还是用Kindle好。因为Kindle能让你专心看书，不易伤眼，而且续航时间很长。
 

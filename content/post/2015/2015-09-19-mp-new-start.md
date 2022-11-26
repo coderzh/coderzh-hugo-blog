@@ -28,5 +28,5 @@ url: "/2015/09/19/mp-new-start/"
 
 最后上个图，上周刚收到的HHKB :)
 
-![HHKB](http://image.coderzh.com/HHKB.jpg-w)
+![HHKB](images/HHKB.jpg)
 

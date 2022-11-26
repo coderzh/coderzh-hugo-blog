@@ -10,7 +10,7 @@ url: "/2016/02/09/my-first-mac/"
 
 ---
 
-![mac](http://image.coderzh.com/mac.JPG-w)
+![mac](images/mac.JPG)
 
 新年第一篇，祝大家猴年大吉，心想事成，万事如意！
 

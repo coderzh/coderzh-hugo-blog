@@ -31,23 +31,23 @@ url: "/2016/01/10/a-password-security-design-example/"
 
 所以，只对密码进行 md5 加密是肯定不够的。聪明的程序员想出了个办法，即使用户的密码很短，只要我在他的短密码后面加上一段很长的字符，再计算 md5 ，那反推出原始密码就变得非常困难了。加上的这段长字符，我们称为盐（Salt），通过这种方式加密的结果，我们称为 `加盐 Hash ` 。比如：
 
-![salt](http://image.coderzh.com/salt.png)
+![salt](images/salt.png)
 
 上一篇我们讲过，常用的哈希函数中，SHA-256、SHA-512 会比 md5 更安全，更难破解，出于更高安全性的考虑，我的这个方案中，会使用 SHA-512 代替 md5 。
 
-![salt](http://image.coderzh.com/sha-512.png)
+![salt](images/sha-512.png)
 
 通过上面的加盐哈希运算，即使攻击者拿到了最终结果，也很难反推出原始的密码。不能反推，但可以正着推，假设攻击者将 salt 值也拿到了，那么他可以枚举遍历所有 6 位数的简单密码，加盐哈希，计算出一个结果对照表，从而破解出简单的密码。这就是通常所说的暴力破解。
 
 为了应对暴力破解，我使用了加盐的**慢哈希**。慢哈希是指执行这个哈希函数非常慢，这样暴力破解需要枚举遍历所有可能结果时，就需要花上非常非常长的时间。比如：bcrypt 就是这样一个慢哈希函数：
 
-![bcrypt](http://image.coderzh.com/bcrypt.png)
+![bcrypt](images/bcrypt.png)
 
 通过调整 `cost` 参数，可以调整该函数慢到什么程度。假设让 bcrypt 计算一次需要 0.5 秒，遍历 6 位的简单密码，需要的时间为：((26 * 2 + 10)^6) / 2 秒，约 900 年。
 
 好了，有了上面的基础，来看看我的最终解决方案：
 
-![password_secutity](http://image.coderzh.com/password_security.jpg)
+![password_secutity](images/password_security.jpg)
 
 上图里有很多细节，我分阶段来讲：
 
