@@ -33,6 +33,7 @@ Taxonomies:
   category: "categories"
 
 params:
+  Author: "CoderZh"
   GitHubUser: "coderzh"
   SidebarRecentLimit: 5
   DateForm : "2006年01月02日"
@@ -55,8 +56,6 @@ menu:
         Identifier: "about"
         Weight: -100
         URL: "/about/"
-author:
-  name: "CoderZh"
 
 images:
   - 480x
