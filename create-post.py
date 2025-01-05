@@ -29,7 +29,7 @@ if __name__ == '__main__':
 
     # replace template value
     post_rel_path = os.path.join('content', post_path)
-    with open(post_rel_path, 'r') as f:
+    with open(post_rel_path, 'r', encoding='utf-8') as f:
         content = f.read()
 
     url = '/{date_format}/{post_name}'.format(
@@ -46,8 +46,8 @@ if __name__ == '__main__':
     for regex, replace_with in replace_patterns:
         content = regex.sub(replace_with, content)
 
-    with open(post_rel_path, 'w') as f:
+    with open(post_rel_path, 'w', encoding='utf-8') as f:
         f.write(content)
 
-    subprocess.Popen(EDITOR + [post_rel_path])
+    subprocess.Popen(' '.join(EDITOR + [post_rel_path]), shell=True)
 
