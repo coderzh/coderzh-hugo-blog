@@ -14,3 +14,4 @@ syncFolders*
 /logs
 webhook.txt
 .hugo_build.lock
+.claude

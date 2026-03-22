@@ -1,5 +1,8 @@
 # Hugo
 
+**Update**: Hugo 更新太快，经常导致不兼容情况。不想耗费精力去适配新版本了，所以，决定固定使用 0.63.2 版本了。去 GitHub Releases 页面下载：
+https://github.com/gohugoio/hugo/releases/tag/v0.63.2
+
 Hugo是一个用Go语言编写的静态网站生成器，它使用起来非常简单，相对于Jekyll复杂的安装设置来说，Hugo仅需要一个二进制文件hugo(hugo.exe)即可轻松用于本地调试和生成静态页面。
 
 Hugo生成静态页面的效率很高，我的260多篇博客文章生成几乎是瞬间完成的，而之前用Jekyll需要等待10秒左右。
