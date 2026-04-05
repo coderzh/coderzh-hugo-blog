@@ -12,7 +12,7 @@ url: "/2026/03/22/openclaw-weixin/"
 
 ---
 
-“AI 来的太快就像龙卷风，离不开 AI Coding 来不及逃，我不能再 Vibe，我不能再 Vibe，我不我不，我不能再 Vibe Coding～“
+「AI 来的太快就像龙卷风，离不开 AI Coding 来不及逃，我不能再 Vibe，我不能再 Vibe，我不我不，我不能再 Vibe Coding～」
 
 开头一曲，自证本文纯手工打造，绝不掺杂 AI 味道。如今 AI 迅猛发展，日新月异，不仅可以回答问题，查阅资料，还可以画图、生成视频、写文章、打代码。传统编程已经被戏称为“古法编程“，我们也即将成为最后一代掌握“古法编程“的人类。
 
@@ -29,11 +29,11 @@ url: "/2026/03/22/openclaw-weixin/"
 
 在 “我 - 设置 - 插件“ 界面，会出现“微信 ClawBot“ 的插件。如果没有这个插件，杀掉进程重进几次试试。
 
-![clawbot](images/clawbot.png)
+![clawbot](../../../static/images/clawbot.png)
 
 进去之后，是个连接的指引：
 
-![clawbot-detail](images/clawbot-detail.png)
+![clawbot-detail](../../../static/images/clawbot-detail.png)
 
 #### 第二步：OpenClaw 上安装微信插件
 
@@ -59,7 +59,7 @@ npx -y @tencent-weixin/openclaw-weixin-cli@latest install
 
 扫码完成后，可以查找到新的好友：搜索“微信ClawBot“，就可以开始对话了。当然，也是可以给你的小助手改名字的。
 
-![clawbot-profile](images/clawbot-profile.png)
+![clawbot-profile](../../../static/images/clawbot-profile.png)
 
 ### 进阶使用
 
@@ -112,7 +112,7 @@ openclaw gateway restart
 
 微信里试下和小爪说一句“你好“：
 
-![clawbot-hello](images/clawbot-hello.png)
+![clawbot-hello](../../../static/images/clawbot-hello.png)
 
 看到龙虾问你名字，就成功了，一个全新的龙虾就创建好了，它拥有单独的人格，工作区等等。
 
